@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    max-width: 960px;
+    min-width: 960px;
+    font-size:  12px;
+    font-family: Verdana, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: #888;
+    text-decoration:none;
+    -moz-text-decoration-color: #888; /* Code for Firefox */
+    text-decoration-color: #888;
+}
+
+a:hover {
+    color:#53f;
+}
+
+.content {
+    width: 100%;
+    max-width: 960px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.id {
+    display:inline-block;
+    width: 20%;
+    margin: 0;
+    vertical-align:top;
+}
+
+.main {
+    display:inline-block;
+    width: 70%;
+    margin: 10px;
+    vertical-align:top;
+}
+
+h4 {
+    margin-bottom:0px;
+}
+
+#nav {
+    color: #888;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+
+#nav a {
+    text-decoration: none;
+    font-weight:normal;
+    color:#888;
+}
+
+#nav a:hover{
+    color: #53f;
+}
+
+.pThumbnail {
+    width: 120px;
+    vertical-align:top;
+    margin-bottom: auto;
+}
+
+
+.footer {
+    margin: 30px 0 30px 0;
+    color: #666;
+    font-size: 9px;
+    min-width:90%;
+    display: block;
+    text-align: center;
+    visibility:hidden;
+}
