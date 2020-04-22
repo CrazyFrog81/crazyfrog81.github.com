@@ -20,6 +20,7 @@ let floatFlag = false;
 let shift_down = false;
 let shift_chosed_list = new Map();
 shift_drag_rect =false;
+let lasso_drag = false;
 
 function GetdefaultViewSize(){
     return defaultViewSize  + 45*Math.random()
@@ -203,14 +204,22 @@ document.onmousedown = function (e) {
         //     d3.selectAll('circle').remove();
         // }
         if(shift_down){
-
             drawEightCircles(downName);
-            // d3.select('#'+downName+'R')
-            //     .style('stroke','black')
-            //     .style('stroke-width','3px');
-            // shift_drag_rect =true;
+            shift_drag_rect =true;
+        }
+        if(lasso_rect_set.size>1 && lasso_rect_set.has(downName))
+        {
+            lasso_drag = true;
+            $('#'+downName+'R').css('stroke','black').css('stroke-dasharray','3,3').css('stroke-width','2px');
         }
         // updateRectPosition(downName);
+    }
+    else if(e.clientX > $('.svg').offset().left && e.clientX < $('.svg').offset().left + $('.svg')[0].clientWidth 
+        && e.clientY > $('.svg').offset().top && e.clientY < $('.svg').offset().top + $('.svg')[0].clientHeight) 
+        ;
+    else{
+        shift_drag_rect = false;
+        lasso_drag = false;
     }
     if (e.target['className']['baseVal'] == 'currentCircle')
     {
@@ -232,22 +241,8 @@ document.onmousedown = function (e) {
 
     document.onmousemove = function (p) {
 
-        if(lasso_selected && drag_all_rect){
-            let shift_left = p.clientX - e.clientX;
-            let shift_top = p.clientY - e.clientY;
-            // console.log(p.clientY, e.clientY)
-            lasso_rect_set.forEach((value,key,self) => {
-                 $('#' + key).attr('x', value.left+shift_left);
-                 $('#' + key).attr('y', value.top+shift_top);
-                 $('#' + key + 'R').attr('x', value.left+shift_left);
-                 $('#' + key + 'R').attr('y', value.top+shift_top);
-             });
-            // updateRectPosition();
-            $('.lasso_box')
-                .css('left',lasso_rect.left+ $('.svg').offset().left +shift_left+'px')
-                .css('top',lasso_rect.top+$('.svg').offset().top+shift_top+'px');
-        }
-        if(lasso_selected && draw_lasso)
+        
+        if(draw_lasso)
         {
             // console.log('move')
             let left = e.clientX;
@@ -286,12 +281,24 @@ document.onmousedown = function (e) {
             else{
                 $('.lasso_box').remove();
                 lasso_rect_set.clear();
-                rectPosition.forEach((value,key,self) => {
-                    $('#'+key+'R').css('stroke','#787878')
-                        .css('stroke-width','1px')
-                        .css('stroke-dasharray','0');
-                });
+                // rectPosition.forEach((value,key,self) => {
+                //     $('#'+key+'R').css('stroke','#787878')
+                //         .css('stroke-width','1px')
+                //         .css('stroke-dasharray','0');
+                // });
             }
+        }
+        if(lasso_drag){
+            let shift_left = p.clientX - e.clientX;
+            let shift_top = p.clientY - e.clientY;
+            // console.log(p.clientY, e.clientY)
+            lasso_rect_set.forEach((value,key,self) => {
+                 $('#' + key).attr('x', value.left+shift_left);
+                 $('#' + key).attr('y', value.top+shift_top);
+                 $('#' + key + 'R').attr('x', value.left+shift_left);
+                 $('#' + key + 'R').attr('y', value.top+shift_top);
+                 $('#'+key+'R').css('stroke','black').css('stroke-dasharray','3,3').css('stroke-width','2px');
+             });
         }
 
 
@@ -486,29 +493,25 @@ document.onmousedown = function (e) {
 
         }
         last_e = 'move'
-        // if(p.shiftKey==1 && shift_chosed_list.size>1 ){
-        //     let shift_left = p.clientX - e.clientX;
-        //     let shift_top = p.clientY - e.clientY;
-        //     // console.log("move,shift_chosed_list")
-        //     // console.log(shift_chosed_list)
-        //     d3.selectAll('circle').remove()
-        //     shift_chosed_list.forEach((value,key,self) => {
-        //          $('#' + key).attr('x', value.left+shift_left);
-        //          $('#' + key).attr('y', value.top+shift_top);
-        //          $('#' + key + 'R').attr('x', value.left+shift_left);
-        //          $('#' + key + 'R').attr('y', value.top+shift_top);
-        //          drawEightCircles(key,true)
-        //      });
-        //     shift_drag_rect = true;
-        //     d3.selectAll('#lineHint').remove();
-        //     // d3.selectAll('#lineHint').remove();
-        // }
-        // else
-        //     shift_drag_rect = false;
+        if(p.shiftKey==1 && shift_chosed_list.size>1 && shift_drag_rect){
+            let shift_left = p.clientX - e.clientX;
+            let shift_top = p.clientY - e.clientY;
+            d3.selectAll('circle').remove()
+            shift_chosed_list.forEach((value,key,self) => {
+                 $('#' + key).attr('x', value.left+shift_left);
+                 $('#' + key).attr('y', value.top+shift_top);
+                 $('#' + key + 'R').attr('x', value.left+shift_left);
+                 $('#' + key + 'R').attr('y', value.top+shift_top);
+                 drawEightCircles(key,true)
+             });
+            d3.selectAll('#lineHint').remove();
+        }
+        else
+            shift_drag_rect = false;
     };
     document.onmouseup = function (e) {
         $('.lasso_box').remove();
-        if(lasso_selected && (draw_lasso||drag_all_rect)){
+        if(draw_lasso){
             //get all chosed rect
             lasso_rect_set.clear();
             rectPosition.forEach((value,key,self) => {
@@ -524,26 +527,30 @@ document.onmousedown = function (e) {
                 }
 
             });
-            if(drag_all_rect){
-                let wid = lasso_rect.right - lasso_rect.left
-                let hig = lasso_rect.bottom - lasso_rect.top
-                lasso_rect.left = $('.lasso_box').attr('left') - $('.svg').offset().left;
-                lasso_rect.top = $('.lasso_box').attr('top') - $('.svg').offset().top;
-                lasso_rect.right = lasso_rect.left + wid;
-                lasso_rect.bottom = lasso_rect.top + hig;
-                lasso_rect_set.forEach((value,key,self)=>{
-                    updateRectPosition(key)
-                })
-            }
-            // if(lasso_rect_set.size >1)
-            //     change_align('_off.png')
-            // else
-            //     change_align('_no.png');
+            // 
+        }
+        if(lasso_drag){
+            var tmp_map = new Map();
+            lasso_rect_set.forEach((value,key,self)=>{
+                updateRectPosition(key)
+                let value_now = rectPosition.get(key)
+                tmp_map.set(key, value_now)
+                $('#'+key+'R').css('stroke','black').css('stroke-dasharray','3,3').css('stroke-width','2px');
+            })
+            lasso_rect_set.clear();
+            lasso_rect_set = tmp_map;
         }
         if(shift_drag_rect){
+            // console.log('shift drag',shift_chosed_list)
+            var tmp_map = new Map();
             shift_chosed_list.forEach((value,key,self)=>{
                 updateRectPosition(key)
+                let value_now = rectPosition.get(key)
+                tmp_map.set(key, value_now)
             })
+            shift_chosed_list.clear();
+            shift_chosed_list = tmp_map;
+            // console.log('shift drag',shift_chosed_list)
         }
 
 
@@ -715,7 +722,6 @@ document.onmousedown = function (e) {
         }
         if (dragSelectRect) {
 
-
             //initPosition
 
             tmp_flag = true;
@@ -769,6 +775,8 @@ document.onmousedown = function (e) {
         draw_lasso = false;
         // console.log('up')
         drag_all_rect = false;
+        shift_drag_rect = false;
+        lasso_drag =false;
     };
 };
 document.onkeydown = function (e) {
@@ -913,6 +921,13 @@ function alignmentHint(name,e,flag=true){
     d3.selectAll('#lineHint').remove();
 
     rectPosition.forEach((value,key,self) => {
+
+        if(lasso_drag)
+            if(lasso_rect_set.size>1 && lasso_rect_set.has(key))
+                return true;
+        if(shift_drag_rect)
+            if(shift_chosed_list.size>1 && shift_chosed_list.has(key))
+                return true;
 
         if(key == name)
             return true;
