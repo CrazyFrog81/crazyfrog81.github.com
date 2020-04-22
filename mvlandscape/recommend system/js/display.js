@@ -611,6 +611,7 @@ document.onmousedown = function (e) {
             // if(cutRec_flag === false){
             //     cutRecProject();
             // }
+            updateRectPosition(upName);
 
         }
         if (dragTest) {
