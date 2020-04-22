@@ -1,0 +1,299 @@
+{
+    "result": {
+        "tile": 50,
+        "imageWidth": 800,
+        "imageHeight": 232.7291717529297,
+        "interfaceWidth": 800,
+        "interfaceHeight": 231,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.18749999999999997,
+                "cY": 0.49350649350649345,
+                "cWidth": "0.37499999999999994",
+                "cHeight": "0.9870129870129869",
+                "viewType": [
+                    {
+                        "Type": "Map",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.5306249999999999,
+                "cY": 0.3246753246753247,
+                "cWidth": "0.31125",
+                "cHeight": "0.6493506493506493",
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "12",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "2.1",
+                        "cX": 0.40562499999999996,
+                        "cY": 0.11471861471861472,
+                        "cWidth": "0.06125000000000008",
+                        "cHeight": "0.22943722943722944",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "2.2",
+                        "cX": 0.4659375,
+                        "cY": 0.11471861471861472,
+                        "cWidth": "0.05937499999999997",
+                        "cHeight": "0.22943722943722944",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "2.3",
+                        "cX": 0.5253125000000001,
+                        "cY": 0.11471861471861472,
+                        "cWidth": "0.05937499999999998",
+                        "cHeight": "0.22943722943722944",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "4": {
+                        "hierarchy": "2.4",
+                        "cX": 0.5853124999999999,
+                        "cY": 0.11471861471861472,
+                        "cWidth": "0.060624999999999984",
+                        "cHeight": "0.22943722943722944",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "5": {
+                        "hierarchy": "2.5",
+                        "cX": 0.6509375,
+                        "cY": 0.11471861471861472,
+                        "cWidth": "0.07062499999999994",
+                        "cHeight": "0.22943722943722944",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "6": {
+                        "hierarchy": "2.6",
+                        "cX": 0.40562499999999996,
+                        "cY": 0.36796536796536794,
+                        "cWidth": "0.06125000000000008",
+                        "cHeight": "0.277056277056277",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "7": {
+                        "hierarchy": "2.7",
+                        "cX": 0.465625,
+                        "cY": 0.36796536796536794,
+                        "cWidth": "0.05875000000000002",
+                        "cHeight": "0.277056277056277",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "8": {
+                        "hierarchy": "2.8",
+                        "cX": 0.5265625,
+                        "cY": 0.36796536796536794,
+                        "cWidth": "0.063125",
+                        "cHeight": "0.277056277056277",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "9": {
+                        "hierarchy": "2.9",
+                        "cX": 0.5859375,
+                        "cY": 0.36796536796536794,
+                        "cWidth": "0.05562499999999993",
+                        "cHeight": "0.277056277056277",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "10": {
+                        "hierarchy": "2.10",
+                        "cX": 0.6499999999999999,
+                        "cY": 0.36796536796536794,
+                        "cWidth": "0.07250000000000001",
+                        "cHeight": "0.277056277056277",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "11": {
+                        "hierarchy": "2.11",
+                        "cX": 0.3940624999999999,
+                        "cY": 0.5779220779220778,
+                        "cWidth": "0.03812500000000002",
+                        "cHeight": "0.1428571428571429",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "12": {
+                        "hierarchy": "2.12",
+                        "cX": 0.5496875000000001,
+                        "cY": 0.5779220779220778,
+                        "cWidth": "0.27312499999999995",
+                        "cHeight": "0.1428571428571429",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    }
+                }
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.5306249999999999,
+                "cY": 0.7532467532467533,
+                "cWidth": "0.31125",
+                "cHeight": "0.2077922077922078",
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "2",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "3.1",
+                        "cX": 0.5306249999999999,
+                        "cY": 0.7034632034632035,
+                        "cWidth": "0.31125",
+                        "cHeight": "0.1082251082251082",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "3.2",
+                        "cX": 0.5306249999999999,
+                        "cY": 0.8073593073593074,
+                        "cWidth": "0.31125",
+                        "cHeight": "0.09956709956709961",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.441875,
+                "cY": 0.9220779220779223,
+                "cWidth": "0.13375000000000006",
+                "cHeight": "0.12987012987012975",
+                "viewType": [
+                    {
+                        "Type": "Bar",
+                        "probability": "1",
+                        "layout": "Horizontal "
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.5974999999999999,
+                "cY": 0.9220779220779223,
+                "cWidth": "0.17749999999999994",
+                "cHeight": "0.12987012987012975",
+                "viewType": [
+                    {
+                        "Type": "Area",
+                        "probability": "1",
+                        "layout": "Horizontal "
+                    }
+                ],
+                "mid_view": {}
+            },
+            "6": {
+                "hierarchy": "6",
+                "cX": 0.8425,
+                "cY": 0.49350649350649345,
+                "cWidth": "0.31249999999999994",
+                "cHeight": "0.9870129870129869",
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 2.0000000000000018,
+        "interfaceY": 3.000000000000001
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "result": {
+        "tile": 4,
+        "imageWidth": 800,
+        "imageHeight": 387.01043701171875,
+        "interfaceWidth": 793,
+        "interfaceHeight": 386,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.8102143757881464,
+                "cY": 0.3290155440414508,
+                "cWidth": 0.3871374527112232,
+                "cHeight": 0.6580310880829016,
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "0.8",
+                        "layout": "Circle"
+                    },
+                    {
+                        "Type": "Bar",
+                        "probability": "0.2",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.8102143757881464,
+                "cY": 0.8160621761658031,
+                "cWidth": 0.3871374527112232,
+                "cHeight": 0.3160621761658031,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.3083228247162674,
+                "cY": 0.4870466321243524,
+                "cWidth": 0.6166456494325347,
+                "cHeight": 0.9740932642487047,
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 3.999999999999981,
+        "interfaceY": 12.0
+    }
+}

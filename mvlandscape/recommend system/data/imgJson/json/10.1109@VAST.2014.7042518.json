@@ -1,0 +1,69 @@
+{
+    "result": {
+        "tile": 13,
+        "imageWidth": 800,
+        "imageHeight": 445.84375,
+        "interfaceWidth": 741,
+        "interfaceHeight": 411,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.35560053981106615,
+                "cY": 0.45498783454987834,
+                "cWidth": 0.7112010796221323,
+                "cHeight": 0.9099756690997567,
+                "viewType": [
+                    {
+                        "Type": "Bar",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.35560053981106615,
+                "cY": 0.9513381995133819,
+                "cWidth": 0.7112010796221323,
+                "cHeight": 0.08272506082725055,
+                "viewType": [
+                    {
+                        "Type": "Distribution",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.8549257759784075,
+                "cY": 0.24452554744525545,
+                "cWidth": 0.2874493927125506,
+                "cHeight": 0.4890510948905109,
+                "viewType": [
+                    {
+                        "Type": "Text Based",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.8549257759784075,
+                "cY": 0.740875912408759,
+                "cWidth": 0.2874493927125506,
+                "cHeight": 0.5036496350364964,
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 22.000000000000004,
+        "interfaceY": 36.0
+    }
+}

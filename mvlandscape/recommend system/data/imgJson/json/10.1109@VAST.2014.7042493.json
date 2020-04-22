@@ -1,0 +1,73 @@
+{
+    "result": {
+        "tile": 11,
+        "imageWidth": 800,
+        "imageHeight": 441.01043701171875,
+        "interfaceWidth": 797,
+        "interfaceHeight": 419,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.0966122961105,
+                "cY": 0.49045346062049994,
+                "cWidth": 0.193224592221,
+                "cHeight": 0.9809069212409999,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.46988707653702755,
+                "cY": 0.49045346062049994,
+                "cWidth": 0.5533249686320552,
+                "cHeight": 0.9809069212409999,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Grid/Matrix",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.8663739021330886,
+                "cY": 0.22911694510730543,
+                "cWidth": 0.23964868256006722,
+                "cHeight": 0.45823389021461086,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Bar",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.8663739021330886,
+                "cY": 0.7207637231503834,
+                "cWidth": 0.23964868256006722,
+                "cHeight": 0.5202863961812326,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Text Based",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 11.999999999931498,
+        "interfaceY": 5.000000000010547
+    }
+}

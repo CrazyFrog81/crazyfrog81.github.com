@@ -1,0 +1,201 @@
+{
+    "result": {
+        "tile": 35,
+        "imageWidth": 792.6666870117188,
+        "imageHeight": 450,
+        "interfaceWidth": 556,
+        "interfaceHeight": 390,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.118705035971223,
+                "cY": 0.16794871794871793,
+                "cWidth": "0.23741007194244604",
+                "cHeight": "0.33589743589743587",
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.118705035971223,
+                "cY": 0.4756410256410256,
+                "cWidth": "0.23741007194244604",
+                "cHeight": "0.2794871794871795",
+                "viewType": [
+                    {
+                        "Type": "Text Based",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.11780575539568344,
+                "cY": 0.7858974358974359,
+                "cWidth": "0.2356115107913669",
+                "cHeight": "0.341025641025641",
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.6151079136690647,
+                "cY": 0.3076923076923077,
+                "cWidth": "0.7553956834532374",
+                "cHeight": "0.6153846153846154",
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.6142086330935252,
+                "cY": 0.7858974358974359,
+                "cWidth": "0.7571942446043165",
+                "cHeight": "0.341025641025641",
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "8",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "5.1",
+                        "cX": 0.28687050359712235,
+                        "cY": 0.7858974358974359,
+                        "cWidth": "0.10251798561151071",
+                        "cHeight": "0.341025641025641",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "5.2",
+                        "cX": 0.38219424460431656,
+                        "cY": 0.7858974358974359,
+                        "cWidth": "0.08812949640287769",
+                        "cHeight": "0.341025641025641",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "5.3",
+                        "cX": 0.47032374100719426,
+                        "cY": 0.7858974358974359,
+                        "cWidth": "0.08812949640287769",
+                        "cHeight": "0.341025641025641",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "4": {
+                        "hierarchy": "5.4",
+                        "cX": 0.5584532374100719,
+                        "cY": 0.7858974358974359,
+                        "cWidth": "0.08812949640287769",
+                        "cHeight": "0.341025641025641",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "5": {
+                        "hierarchy": "5.5",
+                        "cX": 0.6465827338129497,
+                        "cY": 0.7858974358974359,
+                        "cWidth": "0.08812949640287769",
+                        "cHeight": "0.341025641025641",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "6": {
+                        "hierarchy": "5.6",
+                        "cX": 0.7347122302158273,
+                        "cY": 0.7858974358974359,
+                        "cWidth": "0.08812949640287769",
+                        "cHeight": "0.341025641025641",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "7": {
+                        "hierarchy": "5.7",
+                        "cX": 0.8228417266187051,
+                        "cY": 0.7858974358974359,
+                        "cWidth": "0.08812949640287769",
+                        "cHeight": "0.341025641025641",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "8": {
+                        "hierarchy": "5.8",
+                        "cX": 0.9298561151079137,
+                        "cY": 0.7858974358974359,
+                        "cWidth": "0.12589928057553967",
+                        "cHeight": "0.341025641025641",
+                        "viewType": [
+                            {
+                                "Type": "Bar",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "interfaceX": 142.0,
+        "interfaceY": 19.000000000000007
+    }
+}

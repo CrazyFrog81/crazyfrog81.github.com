@@ -1,0 +1,82 @@
+{
+    "result": {
+        "imageWidth": 800,
+        "imageHeight": 362.6875,
+        "interfaceWidth": 477,
+        "interfaceHeight": 333,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "function": "Null",
+                "cX": 0.11949685534591195,
+                "cY": 0.3078078078078078,
+                "cWidth": 0.2389937106918239,
+                "cHeight": 0.6156156156156156,
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "0.8",
+                        "layout": "Free"
+                    },
+                    {
+                        "Type": "Circle",
+                        "probability": "0.2",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "function": "Null",
+                "cX": 0.6226415094339622,
+                "cY": 0.40240240240240244,
+                "cWidth": 0.7672955974842767,
+                "cHeight": 0.8048048048048049,
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "function": "Null",
+                "cX": 0.11949685534591195,
+                "cY": 0.8093093093093092,
+                "cWidth": 0.2389937106918239,
+                "cHeight": 0.3873873873873873,
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "function": "Null",
+                "cX": 0.6226415094339622,
+                "cY": 0.9024024024024023,
+                "cWidth": 0.7672955974842767,
+                "cHeight": 0.2012012012012008,
+                "viewType": [
+                    {
+                        "Type": "Grid/Matrix",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "tile": 13,
+        "interfaceX": 4.0000000000000036,
+        "interfaceY": 3.000000000000006
+    }
+}

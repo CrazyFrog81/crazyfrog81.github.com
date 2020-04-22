@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body {
+      margin:0; 
+      padding:0; 
+      width:100%;
+      height:100%;
+      /*background-color:#eeeeee;*/
+      background-color: #e6e6e6;
+      /*background: url("bg2.png") ; */
+      /*background-repeat: no-repeat;*/
+      /*background-size: cover;
+      overflow-y: hidden;
+      overflow-x: hidde*/n;}
+    * { margin:0; padding:0;font-size:12px;font-family:'lato';line-height:1.2em;text-align:center;}
+    #nav li {list-style-type:none; 
+        float:left;
+    }
+    #header_outer {
+        height: 10%;
+        background: #4484b1;
+        font-size: 3.5em;
+        text-align: center;
+        color: white;
+        padding-top:3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 0.5%;
+        font-weight: bolder;
+        text-align: center;
+        vertical-align: middle;
+    }
+    #nav_outer {
+         /*margin-left: 2%;*/
+        /*margin-right: 2%;*/
+       
+        
+        /*background: #4484b1;*/
+    }
+    #nav{
+        background: #676767;
+        position:relative;
+        /*margin-top: 0.5%;*/
+        height: 7%;
+        /*width: 60px;*/
+        /*position: absolute;*/
+      }
+    #nav li {
+        font-family: 'Microsoft YaHei';
+        padding-top:1%;
+        font-size: 1.5em;
+        color: white;
+        float: left;
+        margin-right: 40px;
+        text-align: center;
+        font-weight: bold;
+        /*vertical-align: text-bottom;*/
+        margin-top: 2.5px;
+        padding-bottom: 6px;
+        /*vertical-align: center;*/
+        /*margin-left: 140px;*/
+    }
+    #explore{
+      margin-left: 5%;
+    }
+    #main_outer{
+        margin-top: 0.5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 100%;
+        /*background: green;*/
+        display: block;
+        /*margin-bottom: 16%;*/
+
+        /*background: url("images/header_bg.png") repeat-x;*/
+        /*background-position: 0 0px;*/
+        /*background: linear-gradient(to bottom,#957137 30px,#6f4c1b 30px);*/
+    }
+    #main{
+      height: 90%;
+      width: 97%;
+      padding-top: 0.7%;
+      padding-left: 0;
+      padding-right: 1.5%;
+        /*background: red;*/
+    }
+ /*   #nav > li > a {
+        font-size: 1.5em;
+        color: white;
+        width: 200px;
+        float: left;
+        vertical-align: text-bottom;
+        background-clip: border-box;
+    }*/
+   /* #nav > li {
+        transition-property: background-position-y;
+        background-position-y: -65px;
+        transition-duration: 0s;
+        height: 30px;
+    }*/  
+    iframe{
+      margin-top: -0.5%;
+    }
+</style>
+<title>Our System</title>
+<link rel="Shortcut Icon" href="maozhao.ico" type="image/x-icon" />
+</head>
+<body>
+    <!--  <div id="header_outer">
+          SYSTEM
+    </div>  -->
+    <!--header_outer-->
+
+    <!-- <div id="nav_outer"> -->
+   <!--    <div id="nav">
+        <div id="explore">
+          <img src="explore.png" width="5%" height="5%" border="0"/>
+          Exploration Mode
+        </div>
+        <div id="recommend">
+          <img src="recommend.png" width="5%" height="5%" border="0"/>  
+          Recommendation Mode
+        </div>
+      </div> -->
+
+         <ul class="wrapper" id="nav">
+            <li id="explore">
+              <!-- <img src="explore.png" width="5%" height="5%" border="0"/> -->
+              Exploration Mode
+            </li>
+            <li id="recommend">
+              <!-- <img src="recommend.png" width="5%" height="5%"/> -->
+              Recommendation Mode
+            </li>
+        </ul>
+      
+
+       
+    
+    <!-- <div  id="main_outer"> -->
+      <div  id="main">
+        <iframe src="UnitVisualization/index.html" frameBorder="0" width="100%" scrolling="NO" height="100%" margin="0" padding="0px">
+        </iframe> 
+      </div> 
+    <!-- </div> -->
+
+<script>
+	var home=document.querySelectorAll("#nav>li");//取到菜单
+  var iframe=document.querySelector("#main>iframe");//取到main的内容
+  home[0].style.borderBottom="3px solid white";
+	
+  home[1].onclick = function(){
+    iframe.src = "recommend system/index.html";
+    home[1].style.borderBottom="3px solid white";
+    home[0].style.borderBottom="0px";
+  }
+  home[0].onclick = function(){
+    iframe.src = "UnitVisualization/index.html";
+    home[0].style.borderBottom="3px solid white";
+    home[1].style.borderBottom="0px";
+  }
+</script>
+</body>
+</html>

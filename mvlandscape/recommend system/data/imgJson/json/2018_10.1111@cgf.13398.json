@@ -1,0 +1,58 @@
+{
+    "result": {
+        "tile": 3,
+        "imageWidth": 800,
+        "imageHeight": 232.0729217529297,
+        "interfaceWidth": 720,
+        "interfaceHeight": 229,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.090277777778,
+                "cY": 0.49126637554600006,
+                "cWidth": 0.180555555556,
+                "cHeight": 0.9825327510920001,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Map",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.45972222222258335,
+                "cY": 0.49126637554600006,
+                "cWidth": 0.5583333333331666,
+                "cHeight": 0.9825327510920001,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.8680555555558889,
+                "cY": 0.49126637554600006,
+                "cWidth": 0.2583333333334445,
+                "cHeight": 0.9825327510920001,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 3.4999999998399955,
+        "interfaceY": 1.9999999999659872
+    }
+}

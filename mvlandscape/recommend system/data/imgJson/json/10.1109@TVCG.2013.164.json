@@ -1,0 +1,82 @@
+{
+    "result": {
+        "tile": 3,
+        "imageWidth": 800,
+        "imageHeight": 367.9270935058594,
+        "interfaceWidth": 794,
+        "interfaceHeight": 306,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.09634760705289673,
+                "cY": 0.49673202614379086,
+                "cWidth": 0.19269521410579346,
+                "cHeight": 0.9934640522875817,
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "2"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "1.1",
+                        "cX": 0.09634760705289673,
+                        "cY": 0.21895424836601307,
+                        "cWidth": "0.19269521410579346",
+                        "cHeight": "0.43790849673202614",
+                        "viewType": [
+                            {
+                                "Type": "Point",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "1.2",
+                        "cX": 0.09634760705289673,
+                        "cY": 0.7156862745098039,
+                        "cWidth": "0.19269521410579346",
+                        "cHeight": "0.5555555555555556",
+                        "viewType": [
+                            {
+                                "Type": "Point",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.4508816120906801,
+                "cY": 0.49673202614379086,
+                "cWidth": 0.5163727959697733,
+                "cHeight": 0.9934640522875817,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.8526448362720402,
+                "cY": 0.49673202614379086,
+                "cWidth": 0.28715365239294705,
+                "cHeight": 0.9934640522875817,
+                "viewType": [
+                    {
+                        "Type": "Text Based",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 6.000000000000001,
+        "interfaceY": 56.00000000000001
+    }
+}

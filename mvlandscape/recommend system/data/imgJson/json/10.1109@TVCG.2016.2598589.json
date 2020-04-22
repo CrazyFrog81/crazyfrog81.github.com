@@ -1,0 +1,66 @@
+{
+    "result": {
+        "interfaceWidth": 797,
+        "views": {
+            "1": {
+                "function": "Null",
+                "cY": 0.2592592592595,
+                "cX": 0.348808030113,
+                "mid_view": {},
+                "cWidth": 0.697616060226,
+                "hierarchy": "1",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Diagram",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.518518518519
+            },
+            "2": {
+                "function": "Null",
+                "cY": 0.7592592592597284,
+                "cX": 0.348808030113,
+                "mid_view": {},
+                "cWidth": 0.697616060226,
+                "hierarchy": "2",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Table",
+                        "probability": "0.7"
+                    },
+                    {
+                        "layout": "Free",
+                        "Type": "Bar",
+                        "probability": "0.3"
+                    }
+                ],
+                "cHeight": 0.4814814814814568
+            },
+            "3": {
+                "function": "Null",
+                "cY": 0.5000000000002284,
+                "cX": 0.8462986198244272,
+                "mid_view": {},
+                "cWidth": 0.2973651191968545,
+                "hierarchy": "3",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 1.0000000000004567
+            }
+        },
+        "interfaceHeight": 324,
+        "imageHeight": 320.40625,
+        "imageWidth": 800,
+        "tile": 6,
+        "interfaceX": 7.99999999993901,
+        "interfaceY": -2.0000000000779945
+    }
+}

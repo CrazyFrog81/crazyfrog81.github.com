@@ -1,0 +1,41 @@
+{
+    "result": {
+        "tile": 2,
+        "imageWidth": 627.3229370117188,
+        "imageHeight": 450,
+        "interfaceWidth": 614,
+        "interfaceHeight": 382,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.495928338762215,
+                "cY": 0.12827225130890052,
+                "cWidth": 0.99185667752443,
+                "cHeight": 0.25654450261780104,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.495928338762215,
+                "cY": 0.6243455497382199,
+                "cWidth": 0.99185667752443,
+                "cHeight": 0.7356020942408377,
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 16.000000000000007,
+        "interfaceY": 26.000000000000007
+    }
+}

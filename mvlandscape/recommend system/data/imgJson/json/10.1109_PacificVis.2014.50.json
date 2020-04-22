@@ -1,0 +1,73 @@
+{
+    "result": {
+        "tile": 13,
+        "imageWidth": 800,
+        "imageHeight": 335.60418701171875,
+        "interfaceWidth": 806,
+        "interfaceHeight": 322,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.3287841191065,
+                "cY": 0.336956521739,
+                "cWidth": 0.657568238213,
+                "cHeight": 0.673913043478,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Map",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.3287841191065,
+                "cY": 0.8322981366458058,
+                "cWidth": 0.657568238213,
+                "cHeight": 0.31677018633561177,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Diagram",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.8263027295283114,
+                "cY": 0.23602484472051705,
+                "cWidth": 0.3374689826306228,
+                "cHeight": 0.4720496894410341,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Text Based",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.8263027295283114,
+                "cY": 0.739130434782489,
+                "cWidth": 0.3374689826306228,
+                "cHeight": 0.5031055900622453,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": -1.9999999998389923,
+        "interfaceY": 1.0000000000420073
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "result": {
+        "tile": 55,
+        "imageWidth": 800,
+        "imageHeight": 393.9895935058594,
+        "interfaceWidth": 802,
+        "interfaceHeight": 380,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.039900249376558575,
+                "cY": 0.4947368421052632,
+                "cWidth": "0.07980049875311715",
+                "cHeight": "0.9894736842105263",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.5386533665835411,
+                "cY": 0.0868421052631579,
+                "cWidth": "0.9177057356608478",
+                "cHeight": "0.1736842105263158",
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.29177057356608477,
+                "cY": 0.3815789473684211,
+                "cWidth": "0.4239401496259352",
+                "cHeight": "0.41578947368421054",
+                "viewType": [
+                    {
+                        "Type": "Map",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.7506234413965087,
+                "cY": 0.3815789473684211,
+                "cWidth": "0.49376558603491266",
+                "cHeight": "0.41578947368421054",
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "4"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "4.1",
+                        "cX": 0.5692019950124689,
+                        "cY": 0.3815789473684211,
+                        "cWidth": "0.13092269326683292",
+                        "cHeight": "0.41578947368421054",
+                        "viewType": [
+                            {
+                                "Type": "Map",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "4.2",
+                        "cX": 0.692643391521197,
+                        "cY": 0.3815789473684211,
+                        "cWidth": "0.11596009975062344",
+                        "cHeight": "0.41578947368421054",
+                        "viewType": [
+                            {
+                                "Type": "Map",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "4.3",
+                        "cX": 0.8086034912718205,
+                        "cY": 0.3815789473684211,
+                        "cWidth": "0.11596009975062344",
+                        "cHeight": "0.41578947368421054",
+                        "viewType": [
+                            {
+                                "Type": "Map",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "4": {
+                        "hierarchy": "4.4",
+                        "cX": 0.9320448877805486,
+                        "cY": 0.3815789473684211,
+                        "cWidth": "0.1309226932668328",
+                        "cHeight": "0.41578947368421054",
+                        "viewType": [
+                            {
+                                "Type": "Map",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.29052369077306733,
+                "cY": 0.7894736842105263,
+                "cWidth": "0.4214463840399003",
+                "cHeight": "0.4",
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "6": {
+                "hierarchy": "6",
+                "cX": 0.7493765586034913,
+                "cY": 0.7894736842105263,
+                "cWidth": "0.4962593516209476",
+                "cHeight": "0.4",
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 2.0000000000000036,
+        "interfaceY": 15.999999999999991
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "result": {
+        "tile": 12,
+        "imageWidth": 800,
+        "imageHeight": 390.2395935058594,
+        "interfaceWidth": 800,
+        "interfaceHeight": 390,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.116875,
+                "cY": 0.49615384615384617,
+                "cWidth": "0.23375",
+                "cHeight": "0.9923076923076923",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.570625,
+                "cY": 0.855128205128205,
+                "cWidth": "0.67375",
+                "cHeight": "0.27435897435897455",
+                "viewType": [
+                    {
+                        "Type": "Area",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.9537500000000001,
+                "cY": 0.49615384615384617,
+                "cWidth": "0.0925",
+                "cHeight": "0.9923076923076923",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.570625,
+                "cY": 0.3564102564102564,
+                "cWidth": "0.67125",
+                "cHeight": "0.7128205128205128",
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 1.9999999999999796,
+        "interfaceY": 3.999999999999986
+    }
+}

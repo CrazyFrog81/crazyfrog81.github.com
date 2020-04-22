@@ -1,0 +1,69 @@
+{
+    "result": {
+        "tile": 60,
+        "imageWidth": 800,
+        "imageHeight": 375.6458435058594,
+        "interfaceWidth": 800,
+        "interfaceHeight": 348,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.5,
+                "cY": 0.060344827586206906,
+                "cWidth": 1.0,
+                "cHeight": 0.12068965517241381,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.15312500000000007,
+                "cY": 0.5574712643678161,
+                "cWidth": 0.30625,
+                "cHeight": 0.8735632183908046,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.4850000000000001,
+                "cY": 0.5574712643678161,
+                "cWidth": 0.3575,
+                "cHeight": 0.8735632183908046,
+                "viewType": [
+                    {
+                        "Type": "Map",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.831875,
+                "cY": 0.5574712643678161,
+                "cWidth": 0.33624999999999994,
+                "cHeight": 0.8735632183908046,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 2.999999999999936,
+        "interfaceY": 4.0
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "result": {
+        "tile": 4,
+        "imageWidth": 641.2291870117188,
+        "imageHeight": 450,
+        "interfaceWidth": 640,
+        "interfaceHeight": 424,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.17421875,
+                "cY": 0.4988207547169811,
+                "cWidth": "0.3484375",
+                "cHeight": "0.9929245283018868",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.67109375,
+                "cY": 0.3891509433962264,
+                "cWidth": "0.6421875",
+                "cHeight": "0.7783018867924528",
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.671875,
+                "cY": 0.8867924528301887,
+                "cWidth": "0.64375",
+                "cHeight": "0.2169811320754717",
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "2"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "3.1",
+                        "cX": 0.427734375,
+                        "cY": 0.8867924528301887,
+                        "cWidth": "0.15546875000000004",
+                        "cHeight": "0.2169811320754717",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "3.2",
+                        "cX": 0.749609375,
+                        "cY": 0.8867924528301887,
+                        "cWidth": "0.48828125",
+                        "cHeight": "0.2169811320754717",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "interfaceX": 4.0000000000000036,
+        "interfaceY": 25.999999999999993
+    }
+}

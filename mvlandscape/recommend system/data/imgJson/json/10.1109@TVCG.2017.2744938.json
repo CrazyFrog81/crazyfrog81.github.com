@@ -1,0 +1,58 @@
+{
+    "result": {
+        "imageWidth": 800,
+        "imageHeight": 430.85418701171875,
+        "interfaceWidth": 798,
+        "interfaceHeight": 426,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.4981203007518797,
+                "cY": 0.046948356807511735,
+                "cWidth": 0.9962406015037594,
+                "cHeight": 0.09389671361502347,
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1",
+                        "layout": "Horizontal "
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.4981203007518797,
+                "cY": 0.31924882629107976,
+                "cWidth": 0.9962406015037594,
+                "cHeight": 0.4507042253521127,
+                "viewType": [
+                    {
+                        "Type": "Diagram",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.4981203007518797,
+                "cY": 0.7746478873239436,
+                "cWidth": 0.9962406015037594,
+                "cHeight": 0.460093896713615,
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1",
+                        "layout": "Horizontal "
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "tile": 7,
+        "interfaceX": 2.999999999999978,
+        "interfaceY": 4.000000000000002
+    }
+}

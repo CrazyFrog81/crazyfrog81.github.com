@@ -1,0 +1,81 @@
+{
+    "result": {
+        "tile": 1,
+        "imageWidth": 800,
+        "imageHeight": 391.94793701171875,
+        "interfaceWidth": 794,
+        "interfaceHeight": 364,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.28022670025188917,
+                "cY": 0.489010989010989,
+                "cWidth": 0.5604534005037783,
+                "cHeight": 0.978021978021978,
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "3"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "1.1",
+                        "cX": 0.28022670025188917,
+                        "cY": 0.16071428571428573,
+                        "cWidth": "0.5604534005037783",
+                        "cHeight": "0.32142857142857145",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "1.2",
+                        "cX": 0.28022670025188917,
+                        "cY": 0.4491758241758242,
+                        "cWidth": "0.5604534005037783",
+                        "cHeight": "0.2554945054945055",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "1.3",
+                        "cX": 0.28022670025188917,
+                        "cY": 0.7774725274725276,
+                        "cWidth": "0.5604534005037783",
+                        "cHeight": "0.4010989010989011",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.7707808564231738,
+                "cY": 0.489010989010989,
+                "cWidth": 0.4206549118387909,
+                "cHeight": 0.978021978021978,
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 17.000000000000004,
+        "interfaceY": 30.99999999999999
+    }
+}

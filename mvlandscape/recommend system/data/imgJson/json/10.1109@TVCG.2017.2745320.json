@@ -1,0 +1,69 @@
+{
+    "result": {
+        "imageWidth": 800,
+        "imageHeight": 392.09375,
+        "interfaceWidth": 536,
+        "interfaceHeight": 379,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.12220149253731344,
+                "cY": 0.18469656992084435,
+                "cWidth": 0.24440298507462688,
+                "cHeight": 0.36939313984168864,
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.12220149253731344,
+                "cY": 0.6794195250659631,
+                "cWidth": 0.24440298507462688,
+                "cHeight": 0.6200527704485488,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.6222014925373134,
+                "cY": 0.34300791556728233,
+                "cWidth": 0.755597014925373,
+                "cHeight": 0.6860158311345647,
+                "viewType": [
+                    {
+                        "Type": "Diagram",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.6222014925373134,
+                "cY": 0.8377308707124012,
+                "cWidth": 0.755597014925373,
+                "cHeight": 0.3034300791556728,
+                "viewType": [
+                    {
+                        "Type": "Diagram",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "tile": 13,
+        "interfaceX": 265.0,
+        "interfaceY": 15.999999999999995
+    }
+}

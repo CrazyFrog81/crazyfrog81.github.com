@@ -1,0 +1,232 @@
+{
+    "result": {
+        "tile": 111,
+        "imageWidth": 800,
+        "imageHeight": 380.15625,
+        "interfaceWidth": 800,
+        "interfaceHeight": 380,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.09125,
+                "cY": 0.2763157894736843,
+                "cWidth": 0.1825,
+                "cHeight": 0.5526315789473685,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.09125,
+                "cY": 0.7736842105263159,
+                "cWidth": 0.1825,
+                "cHeight": 0.4421052631578947,
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.265,
+                "cY": 0.49736842105263157,
+                "cWidth": 0.165,
+                "cHeight": 0.9947368421052631,
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "6",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "3.1",
+                        "cX": 0.265,
+                        "cY": 0.07894736842105268,
+                        "cWidth": "0.165",
+                        "cHeight": "0.15789473684210537",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "3.2",
+                        "cX": 0.265,
+                        "cY": 0.236842105263158,
+                        "cWidth": "0.165",
+                        "cHeight": "0.15789473684210525",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "3.3",
+                        "cX": 0.265,
+                        "cY": 0.3947368421052633,
+                        "cWidth": "0.165",
+                        "cHeight": "0.15789473684210525",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "4": {
+                        "hierarchy": "3.4",
+                        "cX": 0.265,
+                        "cY": 0.5526315789473685,
+                        "cWidth": "0.165",
+                        "cHeight": "0.15789473684210525",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "5": {
+                        "hierarchy": "3.5",
+                        "cX": 0.265,
+                        "cY": 0.7105263157894738,
+                        "cWidth": "0.165",
+                        "cHeight": "0.15789473684210525",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "6": {
+                        "hierarchy": "3.6",
+                        "cX": 0.265,
+                        "cY": 0.8921052631578948,
+                        "cWidth": "0.165",
+                        "cHeight": "0.2052631578947367",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    }
+                }
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.428125,
+                "cY": 0.49736842105263157,
+                "cWidth": 0.16124999999999995,
+                "cHeight": 0.9947368421052631,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.611875,
+                "cY": 0.49736842105263157,
+                "cWidth": 0.20625000000000002,
+                "cHeight": 0.9947368421052631,
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "2",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "5.1",
+                        "cX": 0.611875,
+                        "cY": 0.193421052631579,
+                        "cWidth": "0.20625000000000002",
+                        "cHeight": "0.386842105263158",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "5.2",
+                        "cX": 0.611875,
+                        "cY": 0.6907894736842105,
+                        "cWidth": "0.20625000000000002",
+                        "cHeight": "0.6078947368421052",
+                        "viewType": [
+                            {
+                                "Type": "Tree and Network (Graph)",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    }
+                }
+            },
+            "6": {
+                "hierarchy": "6",
+                "cX": 0.855625,
+                "cY": 0.2842105263157895,
+                "cWidth": 0.28125,
+                "cHeight": 0.568421052631579,
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "7": {
+                "hierarchy": "7",
+                "cX": 0.855625,
+                "cY": 0.781578947368421,
+                "cWidth": 0.28125,
+                "cHeight": 0.4263157894736841,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 4.0000000000000036,
+        "interfaceY": 1.999999999999964
+    }
+}

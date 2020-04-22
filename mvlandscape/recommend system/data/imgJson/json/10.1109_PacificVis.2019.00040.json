@@ -1,0 +1,45 @@
+{
+    "result": {
+        "imageWidth": 800,
+        "imageHeight": 428.04168701171875,
+        "interfaceWidth": 799,
+        "interfaceHeight": 428,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "function": "Null",
+                "cX": 0.49874843554443055,
+                "cY": 0.1425233644859813,
+                "cWidth": 0.9974968710888611,
+                "cHeight": 0.2850467289719626,
+                "viewType": [
+                    {
+                        "Type": "Grid/Matrix",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "function": "Null",
+                "cX": 0.49874843554443055,
+                "cY": 0.6401869158878504,
+                "cWidth": 0.9974968710888611,
+                "cHeight": 0.7102803738317757,
+                "viewType": [
+                    {
+                        "Type": "Map",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "tile": 2,
+        "interfaceX": 2.0000000000000315,
+        "interfaceY": 2.0
+    }
+}

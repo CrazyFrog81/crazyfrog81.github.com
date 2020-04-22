@@ -1,0 +1,111 @@
+{
+    "result": {
+        "tile": 101,
+        "imageWidth": 800,
+        "imageHeight": 400,
+        "interfaceWidth": 800,
+        "interfaceHeight": 380,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.26,
+                "cY": 0.14342105263157895,
+                "cWidth": 0.52,
+                "cHeight": 0.27631578947368424,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.26,
+                "cY": 0.5894736842105264,
+                "cWidth": 0.52,
+                "cHeight": 0.6157894736842104,
+                "viewType": [
+                    {
+                        "Type": "Text Based",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "2",
+                "cX": 0.26,
+                "cY": 0.9486842105263158,
+                "cWidth": 0.52,
+                "cHeight": 0.10263157894736842,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.640625,
+                "cY": 0.1394736842105263,
+                "cWidth": 0.24124999999999996,
+                "cHeight": 0.2789473684210526,
+                "viewType": [
+                    {
+                        "Type": "Text Based",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.640625,
+                "cY": 0.506578947368421,
+                "cWidth": 0.24124999999999996,
+                "cHeight": 0.45526315789473687,
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "6": {
+                "hierarchy": "6",
+                "cX": 0.640625,
+                "cY": 0.8644736842105263,
+                "cWidth": 0.24124999999999996,
+                "cHeight": 0.2605263157894737,
+                "viewType": [
+                    {
+                        "Type": "Text Based",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "7": {
+                "hierarchy": "7",
+                "cX": 0.8775,
+                "cY": 0.49736842105263157,
+                "cWidth": 0.23249999999999985,
+                "cHeight": 0.9947368421052631,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 4.0000000000000036,
+        "interfaceY": 1.000000000000003
+    }
+}

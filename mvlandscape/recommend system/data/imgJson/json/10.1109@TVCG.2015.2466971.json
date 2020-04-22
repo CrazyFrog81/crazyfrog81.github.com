@@ -1,0 +1,77 @@
+{
+    "result": {
+        "interfaceWidth": 708,
+        "views": {
+            "1": {
+                "function": "Null",
+                "cY": 0.49879807692303846,
+                "cX": 0.10875706214686724,
+                "mid_view": {},
+                "cWidth": 0.21751412429373448,
+                "hierarchy": "1",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.9975961538460769
+            },
+            "2": {
+                "function": "Null",
+                "cY": 0.05168269230750003,
+                "cX": 0.6073446327682345,
+                "mid_view": {},
+                "cWidth": 0.779661016949,
+                "hierarchy": "2",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.103365384615
+            },
+            "3": {
+                "function": "Null",
+                "cY": 0.38461538461513467,
+                "cX": 0.6073446327682345,
+                "mid_view": {},
+                "cWidth": 0.779661016949,
+                "hierarchy": "3",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Grid/Matrix",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.5625000000002693
+            },
+            "4": {
+                "function": "Null",
+                "cY": 0.8317307692306731,
+                "cX": 0.6073446327682345,
+                "mid_view": {},
+                "cWidth": 0.779661016949,
+                "hierarchy": "4",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.33173076923080763
+            }
+        },
+        "interfaceHeight": 416,
+        "imageHeight": 450,
+        "imageWidth": 716.046875,
+        "tile": 18,
+        "interfaceX": 5.000000000089995,
+        "interfaceY": 27.00000000007999
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "result": {
+        "tile": 29,
+        "imageWidth": 800,
+        "imageHeight": 363.4895935058594,
+        "interfaceWidth": 799,
+        "interfaceHeight": 344,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.3723404255319149,
+                "cY": 0.4273255813953488,
+                "cWidth": "0.7446808510638298",
+                "cHeight": "0.8546511627906976",
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.8698372966207759,
+                "cY": 0.4273255813953488,
+                "cWidth": "0.25031289111389243",
+                "cHeight": "0.8546511627906976",
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "5",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "2.1",
+                        "cX": 0.8698372966207759,
+                        "cY": 0.08284883720930232,
+                        "cWidth": "0.25031289111389243",
+                        "cHeight": "0.16569767441860464",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "2.2",
+                        "cX": 0.8698372966207759,
+                        "cY": 0.24563953488372092,
+                        "cWidth": "0.25031289111389243",
+                        "cHeight": "0.15988372093023256",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "2.3",
+                        "cX": 0.8698372966207759,
+                        "cY": 0.4055232558139535,
+                        "cWidth": "0.25031289111389243",
+                        "cHeight": "0.15988372093023256",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "4": {
+                        "hierarchy": "2.4",
+                        "cX": 0.8698372966207759,
+                        "cY": 0.565406976744186,
+                        "cWidth": "0.25031289111389243",
+                        "cHeight": "0.15988372093023256",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "5": {
+                        "hierarchy": "2.5",
+                        "cX": 0.8698372966207759,
+                        "cY": 0.75,
+                        "cWidth": "0.25031289111389243",
+                        "cHeight": "0.2093023255813954",
+                        "viewType": [
+                            {
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.3416770963704631,
+                "cY": 0.9215116279069767,
+                "cWidth": "0.6833541927409261",
+                "cHeight": "0.13372093023255813",
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1",
+                        "layout": "Horizontal "
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.7165206508135169,
+                "cY": 0.9215116279069767,
+                "cWidth": "0.06132665832290374",
+                "cHeight": "0.13372093023255813",
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.8710888610763454,
+                "cY": 0.9215116279069767,
+                "cWidth": "0.24780976220275347",
+                "cHeight": "0.13372093023255813",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 4.000000000000019,
+        "interfaceY": 4.000000000000007
+    }
+}

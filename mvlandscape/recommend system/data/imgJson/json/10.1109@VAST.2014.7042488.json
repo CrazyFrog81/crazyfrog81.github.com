@@ -1,0 +1,83 @@
+{
+    "result": {
+        "tile": 37,
+        "imageWidth": 722,
+        "imageHeight": 399,
+        "interfaceWidth": 719,
+        "interfaceHeight": 373,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.07093184979137691,
+                "cY": 0.4959785522788204,
+                "cWidth": 0.14186369958275383,
+                "cHeight": 0.9919571045576407,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.3477051460361613,
+                "cY": 0.2841823056300269,
+                "cWidth": 0.41168289290681503,
+                "cHeight": 0.5683646112600537,
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.7746870653685675,
+                "cY": 0.2841823056300269,
+                "cWidth": 0.44228094575799715,
+                "cHeight": 0.5683646112600537,
+                "viewType": [
+                    {
+                        "Type": "Map",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.260778859527121,
+                "cY": 0.7801608579088473,
+                "cWidth": 0.23783031988873435,
+                "cHeight": 0.42359249329758714,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.6877607788595271,
+                "cY": 0.7801608579088473,
+                "cWidth": 0.6161335187760779,
+                "cHeight": 0.42359249329758714,
+                "viewType": [
+                    {
+                        "Type": "Diagram",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 3.9999999999999942,
+        "interfaceY": 25.999999999999975
+    }
+}

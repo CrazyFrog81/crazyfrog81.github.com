@@ -1,0 +1,88 @@
+{
+    "result": {
+        "tile": 27,
+        "imageWidth": 793.7291870117188,
+        "imageHeight": 450,
+        "interfaceWidth": 794,
+        "interfaceHeight": 449,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.31171284634760704,
+                "cY": 0.2427616926503341,
+                "cWidth": 0.6234256926952141,
+                "cHeight": 0.48552338530066813,
+                "viewType": [
+                    {
+                        "Type": "Map",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.31171284634760704,
+                "cY": 0.7416481069042317,
+                "cWidth": 0.6234256926952141,
+                "cHeight": 0.512249443207127,
+                "viewType": [
+                    {
+                        "Type": "Distribution",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.7556675062972293,
+                "cY": 0.24610244988864144,
+                "cWidth": 0.26448362720403024,
+                "cHeight": 0.4922048997772829,
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.7544080604534005,
+                "cY": 0.7461024498886414,
+                "cWidth": 0.26448362720403024,
+                "cHeight": 0.5033407572383073,
+                "viewType": [
+                    {
+                        "Type": "Grid/Matrix",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.9433249370277079,
+                "cY": 0.49888641425389757,
+                "cWidth": 0.11083123425692695,
+                "cHeight": 0.9977728285077951,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 0.9999999999999872,
+        "interfaceY": 2.9999999999999964
+    }
+}

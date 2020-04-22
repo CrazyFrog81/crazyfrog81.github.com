@@ -1,0 +1,55 @@
+{
+    "result": {
+        "tile": 8,
+        "imageWidth": 800,
+        "imageHeight": 446.8333435058594,
+        "interfaceWidth": 786.000020980835,
+        "interfaceHeight": 408,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.20483459406364835,
+                "cY": 0.41544117647058826,
+                "cWidth": 0.4096691881272967,
+                "cHeight": 0.8308823529411765,
+                "viewType": [
+                    {
+                        "Type": "Grid/Matrix",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.7048345940636483,
+                "cY": 0.41544117647058826,
+                "cWidth": 0.5903308118727033,
+                "cHeight": 0.8308823529411765,
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.5,
+                "cY": 0.9142156862745099,
+                "cWidth": 1.0,
+                "cHeight": 0.16666666666666669,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 8.166666030883794,
+        "interfaceY": 35.999999999999986
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "result": {
+        "interfaceWidth": 800,
+        "views": {
+            "1": {
+                "function": "Null",
+                "cY": 0.492537313433,
+                "cX": 0.06125,
+                "mid_view": {},
+                "cWidth": 0.1225,
+                "hierarchy": "1",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Table",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.985074626866
+            },
+            "2": {
+                "function": "Null",
+                "cY": 0.492537313433,
+                "cX": 0.18187499999999998,
+                "mid_view": {},
+                "cWidth": 0.11875,
+                "hierarchy": "2",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Grid/Matrix",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.985074626866
+            },
+            "3": {
+                "function": "Null",
+                "cY": 0.492537313433,
+                "cX": 0.40875000000000006,
+                "mid_view": {},
+                "cWidth": 0.33499999999999996,
+                "hierarchy": "3",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.985074626866
+            },
+            "4": {
+                "function": "Null",
+                "cY": 0.492537313433,
+                "cX": 0.785625,
+                "mid_view": {},
+                "cWidth": 0.41875,
+                "hierarchy": "4",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.985074626866
+            }
+        },
+        "interfaceHeight": 335,
+        "imageHeight": 390.546875,
+        "imageWidth": 800,
+        "tile": 16,
+        "interfaceX": 1.0000000000000009,
+        "interfaceY": 22.999999999945008
+    }
+}

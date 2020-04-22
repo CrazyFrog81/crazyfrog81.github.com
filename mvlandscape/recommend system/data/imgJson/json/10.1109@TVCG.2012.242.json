@@ -1,0 +1,58 @@
+{
+    "result": {
+        "tile": 6,
+        "imageWidth": 800,
+        "imageHeight": 447.07293701171875,
+        "interfaceWidth": 527,
+        "interfaceHeight": 382,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.378557874763,
+                "cY": 0.3612565445025,
+                "cWidth": "0.757115749526",
+                "cHeight": "0.722513089005",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "SciVis",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.8785578747631266,
+                "cY": 0.47251308900505756,
+                "cWidth": "0.2428842504742533",
+                "cHeight": "0.9450261780101151",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.378557874763,
+                "cY": 0.8337696335075577,
+                "cWidth": "0.757115749526",
+                "cHeight": "0.22251308900511516",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Grid/Matrix",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 11.999999999898982,
+        "interfaceY": 33.000000000045
+    }
+}

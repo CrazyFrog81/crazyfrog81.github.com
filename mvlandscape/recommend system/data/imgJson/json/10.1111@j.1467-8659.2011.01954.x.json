@@ -1,0 +1,45 @@
+{
+    "result": {
+        "interfaceWidth": 620,
+        "views": {
+            "1": {
+                "function": "Null",
+                "cY": 0.489156626506,
+                "cX": 0.248387096774,
+                "mid_view": {},
+                "cWidth": 0.496774193548,
+                "hierarchy": "1",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "SciVis",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.978313253012
+            },
+            "2": {
+                "function": "Null",
+                "cY": 0.489156626506,
+                "cX": 0.7459677419352015,
+                "mid_view": {},
+                "cWidth": 0.4983870967744031,
+                "hierarchy": "2",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "SciVis",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.978313253012
+            }
+        },
+        "interfaceHeight": 415,
+        "imageHeight": 450,
+        "imageWidth": 641,
+        "tile": 1,
+        "interfaceX": 7.500000000120005,
+        "interfaceY": 32.00000000001002
+    }
+}

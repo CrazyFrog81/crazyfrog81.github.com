@@ -1,0 +1,77 @@
+{
+    "result": {
+        "interfaceWidth": 649,
+        "views": {
+            "1": {
+                "function": "Null",
+                "cY": 0.4894736842105,
+                "cX": 0.0762711864405,
+                "mid_view": {},
+                "cWidth": 0.152542372881,
+                "hierarchy": "1",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.978947368421
+            },
+            "2": {
+                "function": "Null",
+                "cY": 0.4894736842105,
+                "cX": 0.2449922958393644,
+                "mid_view": {},
+                "cWidth": 0.1848998459167288,
+                "hierarchy": "2",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Grid/Matrix",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.978947368421
+            },
+            "3": {
+                "function": "Null",
+                "cY": 0.4894736842105,
+                "cX": 0.4514637904464461,
+                "mid_view": {},
+                "cWidth": 0.2280431432974345,
+                "hierarchy": "3",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Diagram",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.978947368421
+            },
+            "4": {
+                "function": "Null",
+                "cY": 0.4894736842105,
+                "cX": 0.7796610169489746,
+                "mid_view": {},
+                "cWidth": 0.4191063174109999,
+                "hierarchy": "4",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "SciVis",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.978947368421
+            }
+        },
+        "interfaceHeight": 285,
+        "imageHeight": 291.59375,
+        "imageWidth": 800,
+        "tile": 16,
+        "interfaceX": 1.1550171929997077e-10,
+        "interfaceY": 14.000000000007494
+    }
+}

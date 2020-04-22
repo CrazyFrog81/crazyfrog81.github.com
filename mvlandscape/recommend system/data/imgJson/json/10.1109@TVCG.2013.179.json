@@ -1,0 +1,68 @@
+{
+    "result": {
+        "tile": 2,
+        "imageWidth": 704.0104370117188,
+        "imageHeight": 450,
+        "interfaceWidth": 701,
+        "interfaceHeight": 431,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.4950071326676177,
+                "cY": 0.3039443155452436,
+                "cWidth": 0.9900142653352354,
+                "cHeight": 0.6078886310904872,
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "2"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "1.1",
+                        "cX": 0.23894436519258203,
+                        "cY": 0.3039443155452436,
+                        "cWidth": "0.47788873038516405",
+                        "cHeight": "0.6078886310904872",
+                        "viewType": [
+                            {
+                                "Type": "Map",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "1.2",
+                        "cX": 0.7339514978601998,
+                        "cY": 0.3039443155452436,
+                        "cWidth": "0.5121255349500714",
+                        "cHeight": "0.6078886310904872",
+                        "viewType": [
+                            {
+                                "Type": "Map",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.4950071326676177,
+                "cY": 0.8016241299303943,
+                "cWidth": 0.9900142653352354,
+                "cHeight": 0.38747099767981436,
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 6.0000000000000036,
+        "interfaceY": 20.00000000000002
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "result": {
+        "tile": 18,
+        "imageWidth": 793.2916870117188,
+        "imageHeight": 450,
+        "interfaceWidth": 798,
+        "interfaceHeight": 444,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.3978696741855695,
+                "cY": 0.49211711711719375,
+                "cWidth": 0.795739348371139,
+                "cHeight": 0.9842342342343875,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Map",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.891604010025139,
+                "cY": 0.1835585585585,
+                "cWidth": 0.191729323308,
+                "cHeight": 0.367117117117,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Bar",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.891604010025139,
+                "cY": 0.5045045045044753,
+                "cWidth": 0.191729323308,
+                "cHeight": 0.2747747747749504,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.891604010025139,
+                "cY": 0.8130630630631689,
+                "cWidth": 0.191729323308,
+                "cHeight": 0.34234234234243704,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Bar",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 3.999999999939046,
+        "interfaceY": 8.000000000025995
+    }
+}

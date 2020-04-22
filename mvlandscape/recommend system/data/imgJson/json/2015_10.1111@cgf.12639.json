@@ -1,0 +1,45 @@
+{
+    "result": {
+        "interfaceWidth": 636,
+        "views": {
+            "1": {
+                "function": "Null",
+                "cY": 0.4840848806365,
+                "cX": 0.175314465409,
+                "mid_view": {},
+                "cWidth": 0.350628930818,
+                "hierarchy": "1",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.968169761273
+            },
+            "2": {
+                "function": "Null",
+                "cY": 0.4840848806365,
+                "cX": 0.6658805031449875,
+                "mid_view": {},
+                "cWidth": 0.6305031446539748,
+                "hierarchy": "2",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.968169761273
+            }
+        },
+        "interfaceHeight": 377,
+        "imageHeight": 408,
+        "imageWidth": 644,
+        "tile": 1,
+        "interfaceX": 5.49999999987599,
+        "interfaceY": 23.00000000003951
+    }
+}

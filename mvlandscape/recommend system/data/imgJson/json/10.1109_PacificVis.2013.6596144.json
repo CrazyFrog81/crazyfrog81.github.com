@@ -1,0 +1,88 @@
+{
+    "result": {
+        "tile": 37,
+        "imageWidth": 800,
+        "imageHeight": 331.7708435058594,
+        "interfaceWidth": 790,
+        "interfaceHeight": 312,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.11202531645554112,
+                "cY": 0.49038461538478206,
+                "cWidth": 0.22405063291108224,
+                "cHeight": 0.9807692307695641,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.4816455696200823,
+                "cY": 0.30769230769250006,
+                "cWidth": 0.515189873418,
+                "cHeight": 0.615384615385,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Map",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.4816455696200823,
+                "cY": 0.7980769230772822,
+                "cWidth": 0.515189873418,
+                "cHeight": 0.36538461538456407,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Distribution",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.8708860759491994,
+                "cY": 0.2131410256411731,
+                "cWidth": 0.2632911392402341,
+                "cHeight": 0.4262820512823462,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Bar",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.8708860759491994,
+                "cY": 0.7035256410259553,
+                "cWidth": 0.2632911392402341,
+                "cHeight": 0.5544871794872179,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Map",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 5.000000000134987,
+        "interfaceY": 16.99999999993998
+    }
+}

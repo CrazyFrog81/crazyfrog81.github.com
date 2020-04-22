@@ -1,0 +1,77 @@
+{
+    "result": {
+        "imageWidth": 800,
+        "imageHeight": 431.9270935058594,
+        "interfaceWidth": 782,
+        "interfaceHeight": 427,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "function": "Null",
+                "cX": 0.1221227621483376,
+                "cY": 0.3114754098360656,
+                "cWidth": 0.2442455242966752,
+                "cHeight": 0.6229508196721312,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "function": "Null",
+                "cX": 0.1221227621483376,
+                "cY": 0.7822014051522248,
+                "cWidth": 0.2442455242966752,
+                "cHeight": 0.3185011709601874,
+                "viewType": [
+                    {
+                        "Type": "Text Based",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "function": "Null",
+                "cX": 0.5441176470588236,
+                "cY": 0.4707259953161593,
+                "cWidth": 0.5997442455242967,
+                "cHeight": 0.9414519906323185,
+                "viewType": [
+                    {
+                        "Type": "Map",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "function": "Null",
+                "cX": 0.9207161125319693,
+                "cY": 0.4707259953161593,
+                "cWidth": 0.15089514066496162,
+                "cHeight": 0.9414519906323185,
+                "viewType": [
+                    {
+                        "Type": "Distribution",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "tile": 21,
+        "interfaceX": 17.0,
+        "interfaceY": 27.000000000000007
+    }
+}

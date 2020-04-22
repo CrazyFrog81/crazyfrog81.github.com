@@ -1,0 +1,61 @@
+{
+    "result": {
+        "interfaceWidth": 806,
+        "views": {
+            "1": {
+                "function": "Null",
+                "cY": 0.5038071066,
+                "cX": 0.094913151365,
+                "mid_view": {},
+                "cWidth": 0.18982630273,
+                "hierarchy": "1",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "layout": "Free",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 1.0076142132
+            },
+            "2": {
+                "function": "Null",
+                "cY": 0.5038071066,
+                "cX": 0.4900744416878108,
+                "mid_view": {},
+                "cWidth": 0.6004962779156215,
+                "hierarchy": "2",
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "layout": "Free",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 1.0076142132
+            },
+            "3": {
+                "function": "Null",
+                "cY": 0.5038071066,
+                "cX": 0.8926799007446781,
+                "mid_view": {},
+                "cWidth": 0.20471464019811295,
+                "hierarchy": "3",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "layout": "Free",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 1.0076142132
+            }
+        },
+        "interfaceHeight": 394,
+        "imageHeight": 392.359375,
+        "imageWidth": 800,
+        "tile": 3,
+        "interfaceX": -4.000000000190001,
+        "interfaceY": -1.000000000400009
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "result": {
+        "tile": 9,
+        "imageWidth": 761.5729370117188,
+        "imageHeight": 450,
+        "interfaceWidth": 613,
+        "interfaceHeight": 404,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.0799347471451876,
+                "cY": 0.4504950495049505,
+                "cWidth": 0.1598694942903752,
+                "cHeight": 0.900990099009901,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.469004893964111,
+                "cY": 0.4504950495049505,
+                "cWidth": 0.6182707993474714,
+                "cHeight": 0.900990099009901,
+                "viewType": [
+                    {
+                        "Type": "Grid/Matrix",
+                        "probability": "0.7"
+                    },
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "0.3"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.8866231647634584,
+                "cY": 0.4504950495049505,
+                "cWidth": 0.2169657422512235,
+                "cHeight": 0.900990099009901,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.49755301794453516,
+                "cY": 0.9492574257425741,
+                "cWidth": 0.9951060358890702,
+                "cHeight": 0.09653465346534654,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 9.000000000000002,
+        "interfaceY": 27.0
+    }
+}

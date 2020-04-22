@@ -1,0 +1,143 @@
+{
+    "result": {
+        "tile": 58,
+        "imageWidth": 800,
+        "imageHeight": 258.8333435058594,
+        "interfaceWidth": 798,
+        "interfaceHeight": 255,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.07894736842105263,
+                "cY": 0.40980392156862744,
+                "cWidth": "0.15789473684210525",
+                "cHeight": "0.8196078431372549",
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.41729323308270677,
+                "cY": 0.40980392156862744,
+                "cWidth": "0.518796992481203",
+                "cHeight": "0.8196078431372549",
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.7330827067669172,
+                "cY": 0.40980392156862744,
+                "cWidth": "0.11278195488721791",
+                "cHeight": "0.8196078431372549",
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.8941102756892232,
+                "cY": 0.3137254901960784,
+                "cWidth": "0.20927318295739342",
+                "cHeight": "0.6274509803921569",
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.8941102756892232,
+                "cY": 0.7235294117647058,
+                "cWidth": "0.20927318295739342",
+                "cHeight": "0.19215686274509797",
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "3",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "5.1",
+                        "cX": 0.824561403508772,
+                        "cY": 0.7235294117647058,
+                        "cWidth": "0.070175438596491",
+                        "cHeight": "0.19215686274509797",
+                        "viewType": [
+                            {
+                                "Type": "Point",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "5.2",
+                        "cX": 0.8865914786967417,
+                        "cY": 0.7235294117647058,
+                        "cWidth": "0.05388471177944862",
+                        "cHeight": "0.19215686274509797",
+                        "viewType": [
+                            {
+                                "Type": "Point",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "5.3",
+                        "cX": 0.9561403508771931,
+                        "cY": 0.7235294117647058,
+                        "cWidth": "0.08521303258145385",
+                        "cHeight": "0.19215686274509797",
+                        "viewType": [
+                            {
+                                "Type": "Point",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            },
+            "6": {
+                "hierarchy": "6",
+                "cX": 0.49937343358395986,
+                "cY": 0.9098039215686273,
+                "cWidth": "0.9987468671679196",
+                "cHeight": "0.18039215686274504",
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 2.0,
+        "interfaceY": 3.0000000000000036
+    }
+}

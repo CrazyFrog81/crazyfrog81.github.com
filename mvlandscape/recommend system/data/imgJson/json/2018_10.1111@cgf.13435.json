@@ -1,0 +1,116 @@
+{
+    "result": {
+        "tile": 11,
+        "imageWidth": 800,
+        "imageHeight": 431.82293701171875,
+        "interfaceWidth": 803,
+        "interfaceHeight": 431,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.079078455791,
+                "cY": 0.491879350348,
+                "cWidth": 0.158156911582,
+                "cHeight": 0.983758700696,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.4159402241598089,
+                "cY": 0.491879350348,
+                "cWidth": 0.5155666251556177,
+                "cHeight": 0.983758700696,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.8318804483190455,
+                "cY": 0.08468677494205917,
+                "cWidth": 0.31631382316285556,
+                "cHeight": 0.16937354988411835,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Bar",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.8318804483190455,
+                "cY": 0.5765661252900592,
+                "cWidth": 0.31631382316285556,
+                "cHeight": 0.8143851508118817,
+                "viewType": [
+                    {
+                        "layout": "Vertical",
+                        "Type": "small multiple",
+                        "probability": "3"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "4.1",
+                        "cX": 0.8318804483190455,
+                        "cY": 0.2819025522041433,
+                        "cWidth": "0.31631382316285556",
+                        "cHeight": "0.22505800464004982",
+                        "viewType": [
+                            {
+                                "layout": "Free",
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "4.2",
+                        "cX": 0.8318804483190455,
+                        "cY": 0.4918793503476683,
+                        "cWidth": "0.31631382316285556",
+                        "cHeight": "0.194895591647",
+                        "viewType": [
+                            {
+                                "layout": "Free",
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "4.3",
+                        "cX": 0.8318804483190455,
+                        "cY": 0.7865429234335841,
+                        "cWidth": "0.31631382316285556",
+                        "cHeight": "0.39443155452483203",
+                        "viewType": [
+                            {
+                                "layout": "Free",
+                                "Type": "Line",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "interfaceX": 5.999999999827004,
+        "interfaceY": 6.000000000011998
+    }
+}

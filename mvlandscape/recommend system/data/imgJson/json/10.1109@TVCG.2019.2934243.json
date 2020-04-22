@@ -1,0 +1,58 @@
+{
+    "result": {
+        "tile": 4,
+        "imageWidth": 800,
+        "imageHeight": 230.05209350585938,
+        "interfaceWidth": 797,
+        "interfaceHeight": 229,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.10853199498125002,
+                "cY": 0.49344978165921294,
+                "cWidth": "0.21706398996250004",
+                "cHeight": "0.9868995633184258",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.6060225846925,
+                "cY": 0.2467248908295,
+                "cWidth": "0.7779171894599999",
+                "cHeight": "0.493449781659",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Diagram",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.6060225846925,
+                "cY": 0.7401746724887129,
+                "cWidth": "0.7779171894599999",
+                "cHeight": "0.49344978165942577",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Diagram",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 5.000000000077498,
+        "interfaceY": 4.000000000044501
+    }
+}

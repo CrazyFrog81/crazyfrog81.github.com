@@ -1,0 +1,123 @@
+{
+    "result": {
+        "tile": 32,
+        "imageWidth": 800,
+        "imageHeight": 434.3020935058594,
+        "interfaceWidth": 798,
+        "interfaceHeight": 433,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.22556390977443608,
+                "cY": 0.24942263279445726,
+                "cWidth": 0.45112781954887216,
+                "cHeight": 0.4988452655889145,
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.6791979949874687,
+                "cY": 0.11547344110854503,
+                "cWidth": 0.45614035087719296,
+                "cHeight": 0.23094688221709006,
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.6791979949874687,
+                "cY": 0.36489607390300227,
+                "cWidth": 0.45614035087719296,
+                "cHeight": 0.2678983833718245,
+                "viewType": [
+                    {
+                        "Type": "Distribution",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.9505012531328321,
+                "cY": 0.5023094688221709,
+                "cWidth": 0.08646616541353386,
+                "cHeight": 1.0046189376443417,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.4536340852130326,
+                "cY": 0.7517321016166282,
+                "cWidth": 0.9072681704260651,
+                "cHeight": 0.5057736720554272,
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "3"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "5.1",
+                        "cX": 0.4536340852130326,
+                        "cY": 0.5981524249422633,
+                        "cWidth": "0.9072681704260651",
+                        "cHeight": "0.19861431870669738",
+                        "viewType": [
+                            {
+                                "Type": "Distribution",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "5.2",
+                        "cX": 0.4536340852130326,
+                        "cY": 0.7551963048498844,
+                        "cWidth": "0.9072681704260651",
+                        "cHeight": "0.11547344110854503",
+                        "viewType": [
+                            {
+                                "Type": "Distribution",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "5.3",
+                        "cX": 0.4536340852130326,
+                        "cY": 0.9087759815242493,
+                        "cWidth": "0.9072681704260651",
+                        "cHeight": "0.19168591224018472",
+                        "viewType": [
+                            {
+                                "Type": "Distribution",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "interfaceX": 5.0,
+        "interfaceY": 0.0
+    }
+}

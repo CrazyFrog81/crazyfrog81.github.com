@@ -1,0 +1,69 @@
+{
+    "result": {
+        "tile": 11,
+        "imageWidth": 800,
+        "imageHeight": 226.27084350585938,
+        "interfaceWidth": 395,
+        "interfaceHeight": 201,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.05949367088607595,
+                "cY": 0.4975124378109453,
+                "cWidth": 0.1189873417721519,
+                "cHeight": 0.9950248756218906,
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.41645569620253164,
+                "cY": 0.4975124378109453,
+                "cWidth": 0.5949367088607596,
+                "cHeight": 0.9950248756218906,
+                "viewType": [
+                    {
+                        "Type": "SciVis",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.8544303797468354,
+                "cY": 0.23880597014925375,
+                "cWidth": 0.2810126582278481,
+                "cHeight": 0.4776119402985075,
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.8531645569620253,
+                "cY": 0.7388059701492538,
+                "cWidth": 0.27848101265822783,
+                "cHeight": 0.5124378109452736,
+                "viewType": [
+                    {
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 7.999999999999999,
+        "interfaceY": 24.999999999999986
+    }
+}

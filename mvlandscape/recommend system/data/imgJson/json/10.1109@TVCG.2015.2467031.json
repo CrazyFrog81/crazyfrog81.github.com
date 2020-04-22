@@ -1,0 +1,94 @@
+{
+    "result": {
+        "tile": 1,
+        "imageWidth": 800,
+        "imageHeight": 287.7395935058594,
+        "interfaceWidth": 391,
+        "interfaceHeight": 241,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.8350383631713554,
+                "cY": 0.47925311203319504,
+                "cWidth": "0.31457800511508943",
+                "cHeight": "0.9585062240663901",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.3388746803069054,
+                "cY": 0.47925311203319504,
+                "cWidth": "0.6777493606138107",
+                "cHeight": "0.9585062240663901",
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "4"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "2.1",
+                        "cX": 0.17071611253196928,
+                        "cY": 0.23029045643153528,
+                        "cWidth": "0.34143222506393855",
+                        "cHeight": "0.4605809128630705",
+                        "viewType": [
+                            {
+                                "Type": "SciVis",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "2.2",
+                        "cX": 0.5095907928388748,
+                        "cY": 0.23029045643153528,
+                        "cWidth": "0.3363171355498721",
+                        "cHeight": "0.4605809128630705",
+                        "viewType": [
+                            {
+                                "Type": "SciVis",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "2.3",
+                        "cX": 0.16943734015345266,
+                        "cY": 0.7095435684647302,
+                        "cWidth": "0.3388746803069053",
+                        "cHeight": "0.49792531120331956",
+                        "viewType": [
+                            {
+                                "Type": "SciVis",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "4": {
+                        "hierarchy": "2.4",
+                        "cX": 0.508312020460358,
+                        "cY": 0.7095435684647302,
+                        "cWidth": "0.3388746803069053",
+                        "cHeight": "0.49792531120331956",
+                        "viewType": [
+                            {
+                                "Type": "SciVis",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "interfaceX": 4.0000000000000036,
+        "interfaceY": 33.0
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "result": {
+        "imageWidth": 800,
+        "imageHeight": 418.28125,
+        "interfaceWidth": 798,
+        "interfaceHeight": 413,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.08583959899750003,
+                "cY": 0.311138014528,
+                "cWidth": 0.171679197995,
+                "cHeight": 0.622276029056,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.4223057644110169,
+                "cY": 0.311138014528,
+                "cWidth": 0.5012531328320338,
+                "cHeight": 0.622276029056,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Diagram",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.8327067669172468,
+                "cY": 0.311138014528,
+                "cWidth": 0.31954887218042616,
+                "cHeight": 0.622276029056,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "SciVis",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.49624060150372995,
+                "cY": 0.8099273607749631,
+                "cWidth": 0.9924812030074599,
+                "cHeight": 0.3753026634379261,
+                "viewType": [
+                    {
+                        "layout": "Vertical",
+                        "Type": "small multiple",
+                        "probability": "2"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "4.1",
+                        "cX": 0.49624060150372995,
+                        "cY": 0.6924939467314712,
+                        "cWidth": "0.9924812030074599",
+                        "cHeight": "0.14043583535094262",
+                        "viewType": [
+                            {
+                                "layout": "Free",
+                                "Type": "Grid/Matrix",
+                                "probability": "1"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "4.2",
+                        "cX": 0.49624060150372995,
+                        "cY": 0.8801452784504344,
+                        "cWidth": "0.9924812030074599",
+                        "cHeight": "0.23486682808698356",
+                        "viewType": [
+                            {
+                                "layout": "Free",
+                                "Type": "Grid/Matrix",
+                                "probability": "1"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "tile": 9,
+        "interfaceX": 0.9999999999949721,
+        "interfaceY": -2.0000000000640075
+    }
+}

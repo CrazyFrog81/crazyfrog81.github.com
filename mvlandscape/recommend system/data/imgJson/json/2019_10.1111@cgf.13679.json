@@ -1,0 +1,116 @@
+{
+    "result": {
+        "tile": 62,
+        "imageWidth": 749.0833740234375,
+        "imageHeight": 450,
+        "interfaceWidth": 740,
+        "interfaceHeight": 416,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.19864864864864865,
+                "cY": 0.28365384615384615,
+                "cWidth": 0.3972972972972973,
+                "cHeight": 0.5673076923076923,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.606081081081081,
+                "cY": 0.28365384615384615,
+                "cWidth": 0.4175675675675675,
+                "cHeight": 0.5673076923076923,
+                "viewType": [
+                    {
+                        "Type": "Tree and Network (Graph)",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.40743243243243243,
+                "cY": 0.7560096153846154,
+                "cWidth": 0.8148648648648649,
+                "cHeight": 0.3774038461538462,
+                "viewType": [
+                    {
+                        "Type": "small multiple",
+                        "probability": "3",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {
+                    "1": {
+                        "hierarchy": "3.1",
+                        "cX": 0.1358108108108108,
+                        "cY": 0.7560096153846154,
+                        "cWidth": "0.2716216216216216",
+                        "cHeight": "0.3774038461538462",
+                        "viewType": [
+                            {
+                                "Type": "Text Based",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "2": {
+                        "hierarchy": "3.2",
+                        "cX": 0.40743243243243243,
+                        "cY": 0.7560096153846154,
+                        "cWidth": "0.2716216216216216",
+                        "cHeight": "0.3774038461538462",
+                        "viewType": [
+                            {
+                                "Type": "Text Based",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    },
+                    "3": {
+                        "hierarchy": "3.3",
+                        "cX": 0.679054054054054,
+                        "cY": 0.7560096153846154,
+                        "cWidth": "0.2716216216216216",
+                        "cHeight": "0.3774038461538462",
+                        "viewType": [
+                            {
+                                "Type": "Text Based",
+                                "probability": "1",
+                                "layout": "Free"
+                            }
+                        ]
+                    }
+                }
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.9047297297297296,
+                "cY": 0.4723557692307693,
+                "cWidth": 0.17972972972972975,
+                "cHeight": 0.9447115384615385,
+                "viewType": [
+                    {
+                        "Type": "Table",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 12.0,
+        "interfaceY": 26.0
+    }
+}

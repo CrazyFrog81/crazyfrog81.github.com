@@ -1,0 +1,73 @@
+{
+    "result": {
+        "tile": 12,
+        "imageWidth": 748.3333740234375,
+        "imageHeight": 450,
+        "interfaceWidth": 698,
+        "interfaceHeight": 444,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.07879656160458452,
+                "cY": 0.45833333333333337,
+                "cWidth": "0.15759312320916904",
+                "cHeight": "0.9166666666666667",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.49140401146131807,
+                "cY": 0.20833333333333337,
+                "cWidth": "0.667621776504298",
+                "cHeight": "0.4166666666666667",
+                "viewType": [
+                    {
+                        "Type": "Bar",
+                        "probability": "1",
+                        "layout": "Horizontal "
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.49140401146131807,
+                "cY": 0.6666666666666666,
+                "cWidth": "0.667621776504298",
+                "cHeight": "0.5",
+                "viewType": [
+                    {
+                        "Type": "Point",
+                        "probability": "1",
+                        "layout": "Free"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.9111747851002866,
+                "cY": 0.45833333333333337,
+                "cWidth": "0.17191977077363896",
+                "cHeight": "0.9166666666666667",
+                "viewType": [
+                    {
+                        "Type": "dashboard",
+                        "probability": "1",
+                        "layout": "Vertical"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 4.000000000000002,
+        "interfaceY": 43.99999999999999
+    }
+}

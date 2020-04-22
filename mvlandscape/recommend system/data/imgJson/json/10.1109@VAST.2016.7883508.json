@@ -1,0 +1,88 @@
+{
+    "result": {
+        "tile": 55,
+        "imageWidth": 800,
+        "imageHeight": 405.01043701171875,
+        "interfaceWidth": 792,
+        "interfaceHeight": 368,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.07891414141422727,
+                "cY": 0.4904891304347935,
+                "cWidth": "0.15782828282845454",
+                "cHeight": "0.980978260869587",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "2",
+                "cX": 0.2821969696969545,
+                "cY": 0.24728260869550003,
+                "cWidth": "0.24873737373699997",
+                "cHeight": "0.49456521739100007",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "3",
+                "cX": 0.2821969696969545,
+                "cY": 0.7377717391302934,
+                "cWidth": "0.24873737373699997",
+                "cHeight": "0.48641304347858694",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "4",
+                "cX": 0.6969696969696945,
+                "cY": 0.4116847826085217,
+                "cWidth": "0.5808080808084798",
+                "cHeight": "0.8233695652170434",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Grid/Matrix",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "5": {
+                "hierarchy": "5",
+                "cX": 0.6969696969696945,
+                "cY": 0.9021739130433152,
+                "cWidth": "0.5808080808084798",
+                "cHeight": "0.15760869565254368",
+                "viewType": [
+                    {
+                        "layout": "Horizontal ",
+                        "Type": "Grid/Matrix",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 5.000000000012013,
+        "interfaceY": 39.00000000005599
+    }
+}

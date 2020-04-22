@@ -1,0 +1,72 @@
+{
+    "result": {
+        "tile": 13,
+        "imageWidth": 800,
+        "imageHeight": 383.9270935058594,
+        "interfaceWidth": 791,
+        "interfaceHeight": 366,
+        "views": {
+            "1": {
+                "hierarchy": "1",
+                "cX": 0.3318584070795,
+                "cY": 0.27049180327850003,
+                "cWidth": 0.663716814159,
+                "cHeight": 0.540983606557,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Line",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "2": {
+                "hierarchy": "3",
+                "cX": 0.3318584070795,
+                "cY": 0.7554644808739331,
+                "cWidth": 0.663716814159,
+                "cHeight": 0.42896174863386616,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Text Based",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "3": {
+                "hierarchy": "4",
+                "cX": 0.8293299620731058,
+                "cY": 0.7472677595626408,
+                "cWidth": 0.3312262958282119,
+                "cHeight": 0.4453551912564507,
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            },
+            "4": {
+                "hierarchy": "3",
+                "cX": 0.8293299620731058,
+                "cY": 0.2554644808742227,
+                "cWidth": 0.3312262958282119,
+                "cHeight": 0.5109289617484454,
+                "viewType": [
+                    {
+                        "Type": "Area",
+                        "probability": "1"
+                    }
+                ],
+                "mid_view": {}
+            }
+        },
+        "interfaceX": 4.000000000115507,
+        "interfaceY": 23.000000000068983
+    }
+}

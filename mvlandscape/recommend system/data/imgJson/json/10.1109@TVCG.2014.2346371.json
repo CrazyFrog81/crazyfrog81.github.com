@@ -1,0 +1,45 @@
+{
+    "result": {
+        "interfaceWidth": 363,
+        "views": {
+            "1": {
+                "function": "Null",
+                "cY": 0.4783950617285,
+                "cX": 0.3085399449035,
+                "mid_view": {},
+                "cWidth": 0.617079889807,
+                "hierarchy": "1",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "SciVis",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.956790123457
+            },
+            "2": {
+                "function": "Null",
+                "cY": 0.4783950617285,
+                "cX": 0.8016528925617914,
+                "mid_view": {},
+                "cWidth": 0.3691460055095826,
+                "hierarchy": "2",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "dashboard",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.956790123457
+            }
+        },
+        "interfaceHeight": 324,
+        "imageHeight": 450,
+        "imageWidth": 626.78125,
+        "tile": 1,
+        "interfaceX": 2.0000000000295004,
+        "interfaceY": 30.999999999966
+    }
+}

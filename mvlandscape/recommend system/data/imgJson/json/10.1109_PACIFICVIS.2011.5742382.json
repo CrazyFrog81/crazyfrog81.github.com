@@ -1,0 +1,61 @@
+{
+    "result": {
+        "interfaceWidth": 753,
+        "views": {
+            "1": {
+                "function": "Null",
+                "cY": 0.4941037735849812,
+                "cX": 0.33997343957500004,
+                "mid_view": {},
+                "cWidth": 0.6799468791500001,
+                "hierarchy": "1",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Point",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.9882075471699624
+            },
+            "2": {
+                "function": "Null",
+                "cY": 0.17806603773600002,
+                "cX": 0.836653386454,
+                "mid_view": {},
+                "cWidth": 0.313413014608,
+                "hierarchy": "2",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Table",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.356132075472
+            },
+            "3": {
+                "function": "Null",
+                "cY": 0.6721698113209811,
+                "cX": 0.836653386454,
+                "mid_view": {},
+                "cWidth": 0.313413014608,
+                "hierarchy": "3",
+                "viewType": [
+                    {
+                        "layout": "Free",
+                        "Type": "Table",
+                        "probability": "1"
+                    }
+                ],
+                "cHeight": 0.6320754716979624
+            }
+        },
+        "interfaceHeight": 424,
+        "imageHeight": 450,
+        "imageWidth": 764.640625,
+        "tile": 4,
+        "interfaceX": 12.000000000138012,
+        "interfaceY": 6.999999999935991
+    }
+}
