@@ -804,7 +804,7 @@ function cutRec() {
     $("#imgButton9").attr('src',iconImgPath + mode[cutRec_flag] + '.png');
     if(cutRec_flag === 0){
 
-        for(let i = 5;i<11;i++){
+        for(let i = 6;i<11;i++){
             $('.iconBox')[i]['style'].display = '';
         }
         $('.displayQueryResult')[0]['style'].display = '';
@@ -817,7 +817,7 @@ function cutRec() {
     }
     if(cutRec_flag === 2){
         // console.log($('.iconBox'));
-        for(let i = 5;i<11;i++){
+        for(let i = 6;i<11;i++){
             $('.iconBox')[i]['style'].display = 'none';
         }
     }
