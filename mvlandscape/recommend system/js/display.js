@@ -475,8 +475,6 @@ document.onmousedown = function (e) {
             }
 
 
-
-
             //8个推荐移动
             // if(recommendViewTypeFlag===-1){
             //     console.log('move');
@@ -493,7 +491,7 @@ document.onmousedown = function (e) {
 
         }
         last_e = 'move'
-        if(p.shiftKey==1 && shift_chosed_list.size>1 && shift_drag_rect){
+        if(shift_chosed_list.size>1 && shift_drag_rect){
             let shift_left = p.clientX - e.clientX;
             let shift_top = p.clientY - e.clientY;
             d3.selectAll('circle').remove()
