@@ -49,10 +49,10 @@ function countCircles(){
         shift_chosed_list.set(name,aRectShape);
     }
 
-    if(shift_chosed_list.size >1)
-        change_align('_off.png') 
-    else
-        change_align('_no.png'); 
+    // if(shift_chosed_list.size >1)
+    //     change_align('_off.png') 
+    // else
+    //     change_align('_no.png'); 
 }
 function change_align(a){
      for(let i = 5; i<9;i++)
@@ -535,10 +535,10 @@ document.onmousedown = function (e) {
                     updateRectPosition(key)
                 })
             }
-            if(lasso_rect_set.size >1)
-                change_align('_off.png')
-            else
-                change_align('_no.png');
+            // if(lasso_rect_set.size >1)
+            //     change_align('_off.png')
+            // else
+            //     change_align('_no.png');
         }
         if(shift_drag_rect){
             shift_chosed_list.forEach((value,key,self)=>{

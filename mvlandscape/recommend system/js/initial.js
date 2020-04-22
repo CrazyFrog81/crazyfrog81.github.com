@@ -6,7 +6,7 @@ let jsonDataCsvPath = 'data/json/data.csv';
 let jsonDataJsonPath = 'data/json/data.json';
 let recommendCsvPath = 'data/viewTypeRecommend/conditionalPossibility.csv';
 let rectPosition = new Map();
-let lasso_selected = false;
+let lasso_selected = true;
 let first_choosed_rect;
 let choosed_rect_set = new Set();
 let first_flag = false;
@@ -176,7 +176,7 @@ d3.select('.svg_button').append('g').attr('class','Tools_group')
     .attr('src', function (d, i) {
         if(i==9) return iconImgPath + iconBox[i] + '.png';
         if(i==10) return iconImgPath + iconBox[i] + '_on.png';
-        if(i>4)  return iconImgPath + iconBox[i] + '_no.png';
+        if(i>4)  return iconImgPath + iconBox[i] + '_off.png';
 
         return iconImgPath + iconBox[i] + '_off.png';
     })
@@ -201,8 +201,8 @@ $('.Tools_group div:eq(13)').css('margin-left','20px');
 d3.select('.displayQueryResult').append('div').append('img').attr("class",'displayOrNot').attr('id','release')
 .attr('src',iconImgPath+'retract.png').attr('width',"18px").attr("height","18px").style('padding-top','5px').style('margin-left','0px');
 
-
 $('.iconBox')[4]['style'].display = 'none';
+$('.iconBox')[5]['style'].display = 'none';
 //按钮的效果
 for (let i = 0; i < iconBox.length-2; i++) {
     $('#imgButton' + i).hover(function () {
@@ -213,28 +213,28 @@ for (let i = 0; i < iconBox.length-2; i++) {
             tooltip.html(TooltipText[i])
                   .style('left', (event.x) - 10 + 'px')
                   .style('top', (event.y) + 20 + 'px');
-        if(i>4 && i<9 &&( lasso_selected==false && shift_chosed_list.size<2))
-        {
-            // console.log('hover'+shift_chosed_list.length)
-            $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_no.png');
-            return;
-        }
+        // if(i>4 && i<9 &&( lasso_selected==false && shift_chosed_list.size<2))
+        // {
+        //     // console.log('hover'+shift_chosed_list.length)
+        //     $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_no.png');
+        //     return;
+        // }
 
         $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_on.png');
     }, function () {
         tooltip.transition().duration(500).style('opacity', 0.0);
         // console.log(shift_chosed_list.size)
-        if(i>4 && i<9 && (lasso_selected==false && shift_chosed_list.size<2))
-        {
-            // console.log('Nohover'+shift_chosed_list.length)
-            $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_no.png');
-            return;
-        }
+        // if(i>4 && i<9 && (lasso_selected==false && shift_chosed_list.size<2))
+        // {
+        //     // console.log('Nohover'+shift_chosed_list.length)
+        //     $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_no.png');
+        //     return;
+        // }
         // if(shift_chosed_list.length > 2)
         // {
         //     $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_off.png');  
         // }
-        if(i==4 && lasso_selected) return;
+        // if(i==4 && lasso_selected) return;
         $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_off.png');    
     })
 }
@@ -261,45 +261,45 @@ function iconBoxFunction(i) {
     if (i === 2) return recover();
     if (i === 3) return ;
     if (i === 4) return ;//choose();
-    if((lasso_selected || shift_chosed_list.size>1)&&i>4 && i<9)
+    if((lasso_rect_set.size>1  || shift_chosed_list.size>1)&&i>4 && i<9)
     {
-        return align(iconBox[i]);
+        return align_lasso(iconBox[i]);
     }
     if (i === 9) return  cutRec();
     if (i == 10) return record(i);
 }
-$('#imgButton4').click(function(){
-    if(lasso_selected){ 
-        lasso_selected = false;
-        first_flag = false;
-        $('#imgButton4').attr('src',iconImgPath + iconBox[4] + '_off.png');
-        changeRectStyle();
-        // rectPosition.forEach((value,key,self) => {
-        //     value.choose = false;
-        // })
-        $('.lasso_box').remove();
-        // d3.selectAll('rect').style('stroke', 'none');
-        for (let i = 5; i < 9; i++) {
-             $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_no.png');
-        }
-        if(choosed_rect_set.size!= 0){
-            for(var x of choosed_rect_set){
-                // $('#'+x+'R').css('stroke','none');
-                if(x.substring(0,3)=='sam')
-                  $('#'+x+'R').css('stroke','black').css('stroke-width','1px').css('stroke-dasharray','0');
-                choosed_rect_set.delete(x)
-            }
-        }
-    }
-    else {
-        lasso_selected = true;
-        $('#imgButton4').attr('src',iconImgPath + iconBox[4] + '_on.png');
-        // console.log($('#imgButton4').attr('src'))
-        for (let i = 5; i < iconBox.length-2; i++) {
-             $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_off.png');
-        }
-    }
-});
+// $('#imgButton4').click(function(){
+//     if(lasso_selected){ 
+//         lasso_selected = false;
+//         first_flag = false;
+//         $('#imgButton4').attr('src',iconImgPath + iconBox[4] + '_off.png');
+//         changeRectStyle();
+//         // rectPosition.forEach((value,key,self) => {
+//         //     value.choose = false;
+//         // })
+//         $('.lasso_box').remove();
+//         // d3.selectAll('rect').style('stroke', 'none');
+//         for (let i = 5; i < 9; i++) {
+//              $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_no.png');
+//         }
+//         if(choosed_rect_set.size!= 0){
+//             for(var x of choosed_rect_set){
+//                 // $('#'+x+'R').css('stroke','none');
+//                 if(x.substring(0,3)=='sam')
+//                   $('#'+x+'R').css('stroke','black').css('stroke-width','1px').css('stroke-dasharray','0');
+//                 choosed_rect_set.delete(x)
+//             }
+//         }
+//     }
+//     else {
+//         lasso_selected = true;
+//         $('#imgButton4').attr('src',iconImgPath + iconBox[4] + '_on.png');
+//         // console.log($('#imgButton4').attr('src'))
+//         for (let i = 5; i < iconBox.length-2; i++) {
+//              $('#imgButton' + i).attr('src',iconImgPath + iconBox[i] + '_off.png');
+//         }
+//     }
+// });
 var rectMenu = $('.currentRect');
 for(var i = 0;i < rectMenu.length; i++){   
     //绑定方法每个菜单的点击
