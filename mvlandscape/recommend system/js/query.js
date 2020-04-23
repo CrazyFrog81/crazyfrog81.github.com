@@ -541,8 +541,8 @@ function createDetail(name,e) {
     let table = d3.select('body').append('table').attr('class','detailView')
         .attr('width','450px');
     let tr1 = table.append('tr').attr('valign','top')
-        tr1.append('th').attr('rowspan','2').attr('class','detailImage')
-        .append('img').attr('width','100px').attr('src',dataImgPath+name.substring(0, name.length - 5) + '.jpg');
+        // tr1.append('th').attr('rowspan','2').attr('class','detailImage')
+        // .append('img').attr('width','100px').attr('src',dataImgPath+name.substring(0, name.length - 5) + '.jpg');
         tr1.append('td').style('align','left').append('p').style('font-size','13px').style('margin-top','5px').style('font-weight',' bold').text(temp['title'])
         .append('p').style('font-weight',' normal').style('font-size','13px').text(authorName(temp['author']));
     let tr2 = table.append('tr').attr('valign','top').append('th').attr('colspan','2').attr('align','left');
