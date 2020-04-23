@@ -835,7 +835,7 @@ function judge(width, height, x, y) {
 
 
 function judgeRatio(width, height,selectId){
-    console.log('judgeRatio');
+    // console.log('judgeRatio');
     let rationMax = 10;
     let rationMin = 0.1;
     let nWidth = parseFloat(width);
@@ -1220,7 +1220,7 @@ function drawEightCircles(name,count_flag=false)
         .style('stroke-width','2px');
 }
 
-    console.log('change');
+    // console.log('change');
     judgeRatio(selectWidth,selectHeight,name);
 
         // updateSmLine(name);

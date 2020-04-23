@@ -54,7 +54,7 @@ function defaultQuery() {
 
 //推荐产生
 function query() {
-        console.log('query');
+        // console.log('query');
         let imgRect = d3.selectAll('.currentRect');
 
         d3.select('.recommendContent').remove();
@@ -232,7 +232,7 @@ function caViewType(rect) {
     similarity.sort(function (a, b) {
         return a['num'] - b['num'];
     });
-    console.log(similarity)
+    // console.log(similarity)
     // console.log(similarity)
     let similarity1=layoutChange(similarity);
     return similarity1;

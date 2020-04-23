@@ -15,7 +15,7 @@ let usageApply = -1;
 let usageApplyid;
 
 function apply(d,i) {
-    console.log('apply');
+    // console.log('apply');
 
     usageApplyid = d['name'];
     usageApply = i;
@@ -134,8 +134,8 @@ function apply(d,i) {
 
                 // console.log('test');
                 // console.log(d3.select('#'+viewName+'G'));
-                console.log('test');
-                console.log(viewName);
+                // console.log('test');
+                // console.log(viewName);
                 applyRecord(viewName+'G',x,y,w,h);
                 // d3.select('#'+viewName)
                 //     // .transition()
@@ -188,8 +188,8 @@ function apply(d,i) {
         }
 
         let storeX = 5;
-        console.log('storeView');
-        console.log(storeViews);
+        // console.log('storeView');
+        // console.log(storeViews);
         for(let i = 0;i<storeViews.length;i++){
 
 
@@ -603,8 +603,8 @@ function reDrawLine() {
 let autoFillRects;
 function autoFill(event) {
 
-    console.log('autoFill');
-    console.log(event);
+    // console.log('autoFill');
+    // console.log(event);
     autoFillRects = [];
     let tileRects = d3.selectAll('.tileRect')[0];
     for (let i = 0;i<tileRects.length;i++){
