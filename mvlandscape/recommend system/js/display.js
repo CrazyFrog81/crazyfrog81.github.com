@@ -489,6 +489,7 @@ document.onmousedown = function (e) {
             d3.selectAll('#RecLink').remove();
 
 
+
         }
         last_e = 'move'
         if(shift_chosed_list.size>1 && shift_drag_rect){
@@ -727,9 +728,15 @@ document.onmousedown = function (e) {
             let upNameClass = e.target.className.baseVal;
 
             if(upNameClass == "currentCircle" )
+            {
                 upName = $('#'+e.target.id).attr('name');
+            }
+
             else
+            {
                 upName = e.target['id'];
+            }
+
             createMouseStyle1();
             if(flagApplyQuery ){
                 query();
@@ -754,8 +761,10 @@ document.onmousedown = function (e) {
             }
 
             recordPathUpdate();
+            updateRectPosition(upName);
             // d3.selectAll('#lineHint').remove();
             // d3.selectAll('circle').remove();
+
         }
         if( tmp_flag && lasso_selected){
             // console.log('tem');
