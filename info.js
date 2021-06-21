@@ -1,7 +1,7 @@
 const info = document.getElementById('info');
 info.innerHTML = `
     <div>
-        <img src="images/Zengwei.jpeg" width="150px" style="margin:0 auto"/>
+        <img src="/images/Zengwei.jpeg" width="150px" style="margin:0 auto"/>
     </div>
     <p>
         <b style="font-weight:bold; font-size:13px">Zeng Wei (曾伟), Ph.D.</b>
@@ -28,11 +28,11 @@ info.innerHTML = `
         </a>
 
         <a href="https://www.researchgate.net/profile/Wei_Zeng13?ev=hdr_xprf">
-            <img src="images/rg.png" width="25px" style="float:left;margin-right:12px;"/>
+            <img src="/images/rg.png" width="25px" style="float:left;margin-right:12px;"/>
         </a>
     
         <a href="https://www.youtube.com/user/CrazyFrog0801/featured?view_as=subscriber">
-            <img src="images/youtube.png" width="25px" style="float:left;margin-right:12px;"/>
+            <img src="/images/youtube.png" width="25px" style="float:left;margin-right:12px;"/>
         </a>
     </p>
 `
