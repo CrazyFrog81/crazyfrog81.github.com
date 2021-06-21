@@ -18,8 +18,8 @@ info.innerHTML = `
         Shenzhen University Town<br/>
         Shenzhen, P.R.China 518055 <br/>
             <br/>
-        wei.zeng (at) siat.ac.cn<br/>
-        <!--or zengwei81 (at) gmail.com-->
+<!--        wei.zeng (at) siat.ac.cn<br/>-->
+        zengwei81 (at) gmail.com
     </p>
 
     <p>
