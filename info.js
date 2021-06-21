@@ -4,7 +4,7 @@ info.innerHTML = `
         <img src="/images/Zengwei.jpeg" width="150px" style="margin:0 auto"/>
     </div>
     <p>
-        <b style="font-weight:bold; font-size:13px">Zeng Wei (曾伟), Ph.D.</b>
+        <b style="font-weight:bold; font-size:13px">ZENG Wei (曾伟), Ph.D.</b>
     </p>
 
     <p>
