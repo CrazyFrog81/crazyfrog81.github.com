@@ -8,18 +8,14 @@ info.innerHTML = `
     </p>
 
     <p>
-        <h4>Associate Professor</h4>
-        <a href="http://www.siat.ac.cn/">Shenzhen Institute of Advanced Technology,</a><br/>
-        <a href="http://www.cas.cn/">Chinese Academy of Sciences</a>
+        <h4>Assistant Professor (starting from 1 Nov. 2021)</h4>
+        <a href="https://hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a><br/>
     </p>
 
     <p>
-        1068 Xueyuan Avenue<br/>
-        Shenzhen University Town<br/>
-        Shenzhen, P.R.China 518055 <br/>
+        Nansha district, Guangzhou City, Guangdong Province, China  <br/>
             <br/>
-<!--        wei.zeng (at) siat.ac.cn<br/>-->
-        zengwei81 (at) gmail.com
+        weizeng (at) ust.hk
     </p>
 
     <p>

@@ -42,6 +42,18 @@ text {
     margin: 0;
     vertical-align:top;
 }
+#content p {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 .main {
     display:inline-block;
@@ -51,7 +63,7 @@ text {
 }
 
 h4 {
-    margin-bottom:0px;
+    margin-bottom:6px;
 }
 
 #nav {
@@ -81,4 +93,34 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.research {
+    max-width: 29%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ebebeb;
+    margin: 15px 11px 25px 11px;
+    background: white;
+    font-family: Helvetica;
+}
+
+.researchImg {
+    height: 140px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-bottom: 0.5px solid #FAFAFA;
+}
+
+.researchTitle {
+    font-weight: bold;
+    padding: 5px 3px 2px 5px;
+    color: #111;
+}
+
+.researchInfo {
+    padding: 0px 5px 5px 5px;
+    color: #666;
+    line-height: 16px;
 }
