@@ -124,3 +124,38 @@ h4 {
     color: #666;
     line-height: 16px;
 }
+
+
+.pubs ol {
+    counter-reset: item;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.pubs ol li {
+    counter-increment: item;
+    margin-bottom: 1em;
+    padding-left: 1em
+}
+
+.pubs ol li:before {
+    display: inline-block;
+    margin-left: -1em;
+    margin-right: .5em
+}
+
+.pubs ol li .light b {
+    font-weight: 400
+}
+
+.pubs ol.journal li:before {
+    content: "[J" counter(item) "]"
+}
+
+.pubs ol.conference li:before {
+    content: "[C" counter(item) "]"
+}
+
+.pubs ol.bc li:before {
+    content: "[BC" counter(item) "]"
+}
