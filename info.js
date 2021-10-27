@@ -8,7 +8,7 @@ info.innerHTML = `
     </p>
 
     <p>
-        <h4>Assistant Professor (starting from 1 Nov. 2021)</h4>
+        <h4>Assistant Professor</h4>
         <a href="https://hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a><br/>
     </p>
 
