@@ -19,10 +19,12 @@ info.innerHTML = `
     </p>
 
     <p>
-        <a href="https://scholar.google.com/citations?user=kTZhR2EAAAAJ&hl=en">
-            <img src="/images/gscholar.png" width="25px" style="float:left;margin-left:10px;margin-right:12px;"/>
+        <a href="/images/CV_Zeng%20Wei.pdf">
+            <img src="/images/cv.png" width="25px" style="float:left;margin-left:5px;margin-right:12px;"/>
         </a>
-
+        <a href="https://scholar.google.com/citations?user=kTZhR2EAAAAJ&hl=en">
+            <img src="/images/gscholar.png" width="25px" style="float:left;margin-right:12px;"/>
+        </a>
         <a href="https://www.researchgate.net/profile/Wei_Zeng13?ev=hdr_xprf">
             <img src="/images/rg.png" width="25px" style="float:left;margin-right:12px;"/>
         </a>
