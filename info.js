@@ -13,9 +13,9 @@ info.innerHTML = `
     </p>
 
     <p>
-        Nansha district, Guangzhou City, Guangdong Province, China  <br/>
+        Nansha district, Guangzhou, Guangdong Province, China  <br/>
             <br/>
-        weizeng (at) ust.hk
+        Contact: weizeng (at) ust.hk
     </p>
 
     <p>
