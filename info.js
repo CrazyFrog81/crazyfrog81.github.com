@@ -18,21 +18,21 @@ info.innerHTML = `
         Contact: weizeng (at) ust.hk
     </p>
 
-    <p>
+    <div>
 <!--        <a href="/images/CV_Zeng%20Wei.pdf">-->
 <!--            <img src="/images/cv.png" width="25px" style="float:left;margin-left:5px;margin-right:12px;"/>-->
 <!--        </a>-->
         <a href="https://scholar.google.com/citations?user=kTZhR2EAAAAJ&hl=en">
-            <img src="/images/gscholar.png" width="25px" style="float:left;margin-right:12px;"/>
+            <img src="/images/gscholar.png" width="25px" style="float:left;margin-right:15px;"/>
         </a>
         <a href="https://www.researchgate.net/profile/Wei_Zeng13?ev=hdr_xprf">
-            <img src="/images/rg.png" width="25px" style="float:left;margin-right:12px;"/>
+            <img src="/images/rg.png" width="25px" style="float:left;margin-right:15px;"/>
         </a>
     
         <a href="https://www.youtube.com/user/CrazyFrog0801/featured?view_as=subscriber">
             <img src="/images/youtube.png" width="25px" style="float:left;margin-right:12px;"/>
         </a>
-    </p>
+    </div>
 `
 
 document.body.appendChild(info.content);
