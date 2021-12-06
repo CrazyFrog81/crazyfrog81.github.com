@@ -19,9 +19,9 @@ info.innerHTML = `
     </p>
 
     <div>
-<!--        <a href="/images/CV_Zeng%20Wei.pdf">-->
-<!--            <img src="/images/cv.png" width="25px" style="float:left;margin-left:5px;margin-right:12px;"/>-->
-<!--        </a>-->
+        <a href="/images/CV_Zeng%20Wei.pdf">
+            <img src="/images/cv.png" width="25px" style="float:left;margin-left:5px;margin-right:12px;"/>
+        </a>
         <a href="https://scholar.google.com/citations?user=kTZhR2EAAAAJ&hl=en">
             <img src="/images/gscholar.png" width="25px" style="float:left;margin-right:15px;"/>
         </a>
