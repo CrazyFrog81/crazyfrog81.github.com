@@ -19,7 +19,7 @@ info.innerHTML = `
     </p>
 
     <div>
-        <a href="https://hkustgz-my.sharepoint.com/:b:/g/personal/weizeng_hkust-gz_edu_cn/ETTDIvpq18lOvcemcBrJu78BdFP3bX1UTXQ9bSL88ahUXQ?e=tIxCAZ">
+        <a href="https://hkustgz-my.sharepoint.com/:b:/g/personal/weizeng_hkust-gz_edu_cn/ETTDIvpq18lOvcemcBrJu78Bb4oFnR9OLxPwRKdujn8iNg?e=b8cRvs">
             <img src="/images/cv.png" width="25px" style="float:left;margin-left:5px;margin-right:12px;"/>
         </a>
         <a href="https://scholar.google.com/citations?user=kTZhR2EAAAAJ&hl=en">
