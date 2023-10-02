@@ -13,9 +13,9 @@ info.innerHTML = `
     </p>
 
     <p>
-        Nansha district, Guangzhou City, Guangdong Province, China  <br/>
+        Address: 1 Duxue Road, Nansha District, Guangzhou City, Guangdong Province, China 511458 <br/>
             <br/>
-        Contact: weizeng (at) ust.hk
+        Contact: weizeng (at) hkust-gz.edu.cn
     </p>
 
     <div>
