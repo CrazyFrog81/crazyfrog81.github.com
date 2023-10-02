@@ -127,16 +127,19 @@ h4 {
 
 
 .pubs ol {
-    counter-reset: item;
+    /*counter-reset: j_item 36 c_item 15;*/
     list-style: none;
     padding-left: 10px;
 }
 
-.pubs ol li {
-    counter-increment: item;
-    margin-bottom: 1em;
-    padding-left: 1em
+.pubs ol:first-of-type {
+    counter-reset: j_item 36 c_item 13 bc_item 4;
 }
+
+/*.pubs ol li {*/
+/*    margin-bottom: 1em;*/
+/*    padding-left: 1em*/
+/*}*/
 
 .pubs ol li:before {
     display: inline-block;
@@ -149,13 +152,16 @@ h4 {
 }
 
 .pubs ol.journal li:before {
-    content: "[J" counter(item) "]"
+    counter-increment: j_item -1;
+    content: "[J" counter(j_item) "]"
 }
 
 .pubs ol.conference li:before {
-    content: "[C" counter(item) "]"
+    counter-increment: c_item -1;
+    content: "[C" counter(c_item) "]"
 }
 
 .pubs ol.bc li:before {
-    content: "[BC" counter(item) "]"
+    counter-increment: bc_item -1;
+    content: "[BC" counter(bc_item) "]"
 }
