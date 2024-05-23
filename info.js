@@ -19,7 +19,7 @@ info.innerHTML = `
     </p>
 
     <div>
-        <a href="https://drive.google.com/file/d/1zoEV6Fmckhxt96gRoCcahn2tb-YCDAsD/view?usp=sharing">
+        <a href="/CV_Zeng%20Wei.pdf">
             <img src="/images/cv.png" width="25px" style="float:left;margin-left:5px;margin-right:12px;"/>
         </a>
         <a href="https://scholar.google.com/citations?user=kTZhR2EAAAAJ&hl=en">
