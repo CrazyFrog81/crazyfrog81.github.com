@@ -1,7 +1,7 @@
 const info = document.getElementById('info');
 info.innerHTML = `
     <div>
-        <img src="/images/Zengwei.jpeg" width="150px" style="margin:0 auto"/>
+        <img src="/images/ZengWei2.jpg" width="150px" style="margin:0 auto"/>
     </div>
     <p>
         <b style="font-weight:bold; font-size:13px">ZENG Wei (曾伟), Ph.D.</b>
