@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* CSS Document - Optimized Version */
+
+/* CSS Custom Variables for consistent theming */
+:root {
+    --primary-color: #888;
+    --hover-color: #53f;
+    --text-dark: #111;
+    --text-gray: #666;
+    --border-light: #ebebeb;
+    --border-ultra-light: #fafafa;
+    --font-stack: Verdana, Helvetica, sans-serif;
+    --container-max-width: 960px;
+    --spacing-unit: 10px;
+}
+
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 92%;
+    max-width: var(--container-max-width);
+    font-size: 12px;
+    font-family: var(--font-stack);
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+/* Link styles - consolidated */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--hover-color);
+}
+
+/* Layout containers */
+.content {
+    width: 100%;
+    max-width: var(--container-max-width);
+    margin-top: 30px;
+    padding: 0;
+}
+
+/* Profile section */
+.id {
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.main {
+    display: inline-block;
+    width: 75%;
+    margin: var(--spacing-unit);
+    vertical-align: top;
+}
+
+/* Typography */
+h4 {
+    margin: 25px 0 6px 0;
+    color: var(--text-dark);
+}
+
+p {
+    margin: 0 0 1em 0;
+    line-height: 1.6;
+}
+
+/* Navigation */
+#nav {
+    color: var(--primary-color);
+    text-align: left;
+    margin: -15px 0 10px 0;
+}
+
+#nav a {
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+#nav a:hover {
+    color: var(--hover-color);
+}
+
+/* Utility classes */
+.img {
+    display: block;
+    margin: 0 auto;
+}
+
+.pThumbnail {
+    width: 120px;
+    vertical-align: top;
+}
+
+/* Research section cards */
+.research {
+    max-width: 29%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid var(--border-light);
+    margin: 15px 11px 25px 11px;
+    background: white;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.research:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.researchImg {
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-bottom: 0.5px solid var(--border-ultra-light);
+}
+
+.researchTitle {
+    font-weight: bold;
+    padding: 5px 3px 2px 5px;
+    color: var(--text-dark);
+}
+
+.researchInfo {
+    padding: 0 5px 5px 5px;
+    color: var(--text-gray);
+    line-height: 16px;
+}
+
+/* Publication lists */
+.pubs ol {
+    list-style: none;
+    padding-left: var(--spacing-unit);
+}
+
+.pubs ol:first-of-type {
+    counter-reset: j_item 44 c_item 23 bc_item 4;
+}
+
+.pubs ol li {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.pubs ol li:before {
+    display: inline-block;
+    margin-left: -1em;
+    margin-right: 0.5em;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.pubs ol li .light b {
+    font-weight: 400;
+}
+
+.pubs ol.journal li:before {
+    counter-increment: j_item -1;
+    content: "[J" counter(j_item) "]";
+}
+
+.pubs ol.conference li:before {
+    counter-increment: c_item -1;
+    content: "[C" counter(c_item) "]";
+}
+
+.pubs ol.bc li:before {
+    counter-increment: bc_item -1;
+    content: "[BC" counter(bc_item) "]";
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 768px) {
+    body {
+        width: 95%;
+        font-size: 14px;
+    }
+    
+    .id, .main {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .research {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+    
+    #nav {
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        font-size: 10pt;
+        color: black;
+    }
+    
+    a {
+        color: black !important;
+        text-decoration: underline;
+    }
+    
+    .research {
+        break-inside: avoid;
+    }
+}
